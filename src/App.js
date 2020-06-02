@@ -8,7 +8,7 @@ import {Container, Pagination, Jumbotron} from "react-bootstrap";
 import QuestionList from "./components/QuestionList";
 
 import questions1 from "./questions/ooad/ooad1";
-import questions2 from "./questions/ooad/ooad2";
+import questions2 from "./questions/ooad/ooad1";
 // import questions3 from "./questions/ooad/ooad3";
 
 function App() {

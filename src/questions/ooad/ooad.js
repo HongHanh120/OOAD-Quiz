@@ -1,203 +1,191 @@
-export const questions2 = [{
-    cont: "Các lớp phân tích phát triển thành ____ (Chọn hai)",
+export const questions3 = [{
+    cont: "Trong một sơ đồ trạng thái, một trạng thái có hai chuyển tiếp. Một trong những chuyển đổi là một chuyển tiếp nội bộ và một trong những chuyển tiếp là một chuyển tiếp bên ngoài. Những trạng thái nào có thể thực hiện một hành động thoát?",
     answers: [
-        "Các lớp thiết kế",
-        "Các hệ thống con",
-        "Các hiện thực hóa ca sử dụng",
-        "Các gói thiết kế (design packages)",
-        "Kiến trúc"
+        "Chỉ trạng thái chuyển tiếp nội bộ",
+        "Chị trạng thái chuyển tiếp bên ngoài",
+        "Cả 2 đều không phải",
+        "Cả 2 đều đúng"
     ],
-    corrects: [0, 1]
+    corrects: [1]
 },
     {
-        cont: "Chuyện gì xảy ra khi một lớp cha thay đổi?",
+        cont: "Các lớp kiến ​​trúc thường được mô hình hóa trong UML bằng cách sử dụng một ___",
         answers: [
-            "Tất cả các class con thay đổi",
-            "Các operations của các class con thay đổi",
-            "Các phương thức được thêm trong class con mà không có trong class cha phải thay đổi",
-            "Chỉ có các phương thức được kế thừa từ class cha thay đổi"
+            "package stereotyped <<Layer>>",
+            "subsystem stereotyped <<Layer>>",
+            "composite class stereotyped <<Layer>>",
+            "class diagram entitled Layer"
         ],
         corrects: [0]
     },
     {
-        cont: "Phát biểu nào là đúng với hiện thực hóa ca sử dụng?",
+        cont: "Hai câu nào là đúng về use-case driven processes? (Chọn hai)",
         answers: [
-            "Liệt kê các bước khác nhau mà 1 ca sử dụng thực hiện",
-            "Nó được tạo ra bởi người phân tích hệ thống",
-            "Nó là một phần trong Đặc tả yêu cầu phần mềm",
-            "Thẩm định sự tương ứng từ phân tích và thiết kế với đặc tả yêu cầu"
+            "Các ca sử dụng ngắn gọn, đơn giản và có thể hiểu được bởi các bên liên quan",
+            "Ca sử dụng giúp đồng bộ hóa nội dung của các mô hình khác nhau",
+            "Ca sử dụng là một danh sách đầy đủ các yêu cầu chức năng",
+            "Các ca sử dụng xác định cách thức thực hiện hành vi hệ thống"
         ],
-        corrects: [3]
+        corrects: [0, 1]
     },
     {
-        cont: "Trạng thái nào KHÔNG chứa trạng thái khác?",
+        cont: "Cơ chế chung nào của UML cho phép nhóm các thành phần vào trong cùng một nhóm?",
         answers: [
-            "Top State",
-            "Composite State",
-            "Simple State",
-            "Bottom State"
+            "một biểu đồ lớp (class diagram)",
+            "một biểu đồ hoạt động (activity diagram)",
+            "một gói (package)",
+            "một biểu đồ phức hợp (composite diagram)"
         ],
         corrects: [2]
     },
     {
-        cont: "Phát biểu nào là đúng về việc nhóm các thành phần vào một gói?",
+        cont: "Trong phân tích ca sử dụng, cần bao nhiêu biểu đồ tương tác (tuần tự hoặc giao tiếp) cho mỗi ca sử dụng?",
         answers: [
-            "Các thành phần trong cùng một gói nên chia sẻ logic, giải pháp chung",
-            "Các gói nên chứa một số lượng nhỏ các thành phần để tránh nhầm lẫn",
-            "Các gói chỉ nên được sử dụng cho các dự án lớn đòi hỏi một số lượng lớn các thành phần",
-            "Các gói không nên chứa các gói khác"
+            "Đủ cho mỗi biểu đồ để đảm bảo rằng tất cả các trách nhiệm của các lớp tham gia đều được nhận biết và đa phần các luồng sự kiện đã được mô tả",
+            "một biểu đồ cho luồng sự kiện chính và một biểu đồ cho luồng sự kiện chuyển đổi trong ca sử dụng",
+            "một biểu đồ tuần tự và giao tiếp cho luồng sự kiện chính, mỗi loại một biểu đồ cho luồng sự kiện chuyển đổi",
+            "mỗi loại một biểu đồ cho từng ca sử dụng"
         ],
         corrects: [0]
     },
     {
-        cont: "Có ba phân nhóm cơ chế kiến trúc bao gồm: (Chọn ba)",
+        cont: "Trong phân tích ca sử dụng, các lớp biên có những chức năng gì?",
         answers: [
-            "Các cơ chế phân tích",
-            "Các cơ chế yêu cầu",
-            "Các cơ chế cài đặt",
-            "Các cơ chế thiết kế"
+            "Ngăn cách giữa các tương tác từ ngoài với các cơ chế bên trong và ngược lại",
+            "Đại diện cho các màn hình trong giao diện người dùng",
+            "Định nghĩa các giao diện dịch vụ mà tầng Bussiness cung cấp",
+            "Định nghĩa các điểm truy nhập tới mô hình dữ liệu đối tượng của hệ thống"
+        ],
+        corrects: [0]
+    },
+    {
+        cont: "Đâu là ba mục đích của thiết kế ca sử dụng? (Chọn ba)",
+        answers: [
+            "để làm mịn các hiện thực hóa ca sử dụng về mặt tương tác",
+            "để đảm bảo tính đầy đủ của các lớp tham gia (View of Participating Classes) cho mỗi hiện thực hóa ca sử dụng",
+            "để làm mịn các yêu cầu về các thao tác của lớp thiết kế",
+            "để làm mịn các yêu cầu về các thao tác (operations) của các hệ thống con thiết kế và các giao diện (interfaces)"
         ],
         corrects: [0, 2, 3]
     },
     {
-        cont: "Trong biểu đồ tuần tự, những gì có thể được xác định bởi các tương tác giữa các thành phần ?",
+        cont: "Mục đích của thiết kế hệ thống con là gì?",
         answers: [
-            "Chỉ có các dịch vụ được cung cấp bởi một giao diện",
-            "Chỉ có các dịch vụ được yêu cầu bởi một giao diện",
-            "Các dịch vụ được cung cấp và yêu cầu bởi một giao diện",
-            "Tên của giao diện"
+            "hoàn thiện chi tiết của từng interface mà hệ thống con cài đặt",
+            "phân chia hệ thống thành các hệ thống con nhằm phân các hệ thống con đó cho các đội phát triển khác nhau",
+            "định nghĩa các hành vi được đặc tả trong các interfaces của hệ thống con theo sự cộng tác giữa các phần tử thiết kế bên trong hệ thống con đó",
+            "xác định xem mỗi hệ thống con sẽ được cài đặt tại tầng nào và cơ chế giao tiếp nào sẽ được sử dụng giữa chúng"
         ],
         corrects: [2]
     },
     {
-        cont: "Khung nhìn nào tập trung vào hiện thực hóa vật lý của hệ thống ?",
+        cont: "Thành phần nào được dùng để mô tả hiện thực hóa ca sử dụng?",
         answers: [
-            "Khung logic",
-            "Khung cài đặt",
-            "Khung tiến trình",
-            "Khung ca sử dụng"
+            "các đặc tả ca sử dụng",
+            "các biểu đồ giao tiếp",
+            "các biểu đồ trạng thái",
+            "các biểu đồ hoạt động"
         ],
         corrects: [1]
     },
     {
-        cont: "Phát biểu nào là đúng về một active object?",
+        cont: "Phát biểu nào đúng về các hệ thống con trong thiết kế?",
         answers: [
-            "Nó là một object độc lập có thể giao tiếp với các active object khác một cách không đồng bộ",
-            "Nó không chứa trạng thái",
-            "Nó phụ thuộc vào việc thực hiện toàn bộ hệ thống",
-            "Nó không có cấu trúc để cho phép lớp được thao tác dễ dàng"
-        ],
-        corrects: [0]
-    },
-    {
-        cont: "Trong khâu Phân tích ca sử dụng, hành vi nào được phân bố cho các lớp điều khiển?",
-        answers: [
-            "Hành vi đặc thù của ca sử dụng hoặc một phần của luồng sự kiện quan trọng",
-            "Hành vi liên quan đến dữ liệu được bao gói trong các trừu tượng",
-            "Hành vi liên quan đến giao tiếp với tác nhân",
-            "Hành vi đặc thù về quy tắc nghiệp vụ hoặc luồng nghiệp vụ"
-        ],
-        corrects: [0]
-    },
-    {
-        cont: "Ba nguồn để xác định Trừu tượng chính là gì? (Chọn ba)",
-        answers: [
-            "Kiến thức nghiệp vụ",
-            "Yêu cầu",
-            "Lớp thiết kế",
-            "Bảng thuật ngữ"
-        ],
-        corrects: [0, 1, 3]
-    },
-    {
-        cont: "Đâu là một tên của object trong UML?",
-        answers: [
-            "Matt:Employee",
-            ":Employee",
-            "Matt::Employee",
-            "::employee"
-        ],
-        corrects: [0]
-    },
-    {
-        cont: "Trong Phân tích ca sử dụng, một thuộc tính nên được sử dụng thay vì một lớp khi thông tin ___",
-        answers: [
-            "được truy cập bởi các operations mà chỉ get, set, hoặc chuyển đổi đơn giản",
-            "có liên quan đến các thực thể trong mô hình doanh nghiệp hoặc nghiệp vụ",
-            "cần được ẩn khỏi các phần khác của Mô hình phân tích và không được chia sẻ",
-            "được nhắc đến và sử dụng nhiều lần trong suốt quá trình thực hiện ca sử dụng"
-        ],
-        corrects: [0]
-    },
-    {
-        cont: "Khung nhìn 4+1 nào dưới đây tập trung vào khâu Mô tả Phân tán?",
-        answers: [
-            "Khung Logic",
-            "Khung Triển khai",
-            "Khung ca sử dụng",
-            "Khung cài đặt"
+            "Chúng đóng gói (encapsulate) một phần hành vi",
+            "Chúng đại diện một chức năng độc lập với các giao diện (interface) được định nghĩa rõ ràng",
+            "Chúng mô hình hóa một cách cài đặt",
+            "Chúng chỉ có thể chứa các lớp thiết kế"
         ],
         corrects: [1]
     },
     {
-        cont: "Chức năng của mô hình hóa trực quan là gì? (Chọn hai)",
+        cont: "Một hệ thống con nên ___",
         answers: [
-            "tạo ra một mô hình đơn biểu diễn mọi khía cạnh của hệ thống",
-            "nâng cao sự giao tiếp và khả năng hiểu được hệ thống trong các thành viên trong đội dự án phần mềm",
-            "làm tài liệu về những quyết định thiết kế quan trọng trong khi viết chương trình",
-            "làm tài liệu về hành vi và cấu trúc của hệ thống trước khi viết mã cho chương trình"
+            "phụ thuộc vào các giao diện của hệ thống khác",
+            "chỉ phụ thuộc vào chính nó",
+            "là một tập nhỏ các lớp được định nghĩa rõ ràng và cung cấp những APIs cho bên ngoài",
+            "chạy cho các dịch vụ của riêng nó"
+        ],
+        corrects: [0]
+    },
+    {
+        cont: "Câu nào là đúng về gói và hệ thống con?",
+        answers: [
+            "Một gói không thể chứa một hệ thống con",
+            "Một gói cung cấp hành vi",
+            "Một hệ thống con cung cấp hành vi",
+            "Sử dụng gói khi cần đóng gói hành vi"
+        ],
+        corrects: [2]
+    },
+    {
+        cont: "Trong thiết kế hệ thống con có bao nhiêu biểu đồ tương tác (tuần tự hoặc giao tiếp) được tạo ra?",
+        answers: [
+            "ít nhất một biểu đồ tương tác cho mỗi giao diện",
+            "một biểu đồ tương tác cho mỗi hiện thực hóa giao diện",
+            "ít nhất một biểu đồ tương tác cho mỗi sử dụng của giao diện ngoài",
+            "mỗi biểu đồ tương tác cho từng lớp"
+        ],
+        corrects: [0]
+    },
+    {
+        cont: "Hai phát biểu nào sau đây là chính xác về hiện thực hóa ca sử dụng? (Chọn hai)",
+        answers: [
+            "liệt kê các bước khác nhau được thực hiện bởi ca sử dụng",
+            "cung cấp sự lần vết từ phân tích và thiết kế ngược trở lại đặc tả yêu cầu",
+            "được tạo bởi các nhà phân tích hệ thống",
+            "mô tả ca sử dụng thông qua sự cộng tác giữa các đối tượng"
         ],
         corrects: [1, 3]
     },
     {
-        cont: "Trong phân tích ca sử dụng, tại sao nên sử dụng các cơ chế Phân tích?",
+        cont: "Trách nhiệm của các hệ thống con được xác định dựa vào đâu?",
         answers: [
-            "Để giảm độ phức tạp và tăng tính nhất quán bằng cách cung cấp ký hiệu cho những hành vi phức tạp",
-            "Để đơn giản hóa nhiệm vụ tạo ra các use-case, cung cấp ký hiệu viết tắt cho các nhiệm vụ lặp đi lặp lại",
-            "Để thu thập các nhiệm vụ chung vào một nơi, dễ dàng cho nhà phát triển thưc hiện",
-            "Để chứng minh rằng các nhà thiết kế đã thực hiện chính xác như thiết kế của các kiến trúc sư"
-        ],
-        corrects: [0]
-    },
-    {
-        cont: "Phát biểu nào là chính xác về các pattern?",
-        answers: [
-            "Pattern chỉ xuất hiện ở trong mức Thiết kế",
-            "Pattern cung cấp một giải pháp chung cho những vấn đề chung",
-            "Pattern chỉ xuất hiện ở trong mức Kiến trúc",
-            "Pattern chỉ được sử dụng trong Giai đoạn xây dựng (Elaboration Phase)"
+            "hành vi của các lớp trong hệ thống con",
+            "các thao tác của giao diện hệ thống con",
+            "các hiện thực hóa ca sử dụng trong đó có các hệ thống con",
+            "các thao tác của lớp được chứa trong hệ thống con"
         ],
         corrects: [1]
     },
     {
-        cont: "Trong khâu Phân tích ca sử dụng, tại sao thường phải bổ sung các mô tả ca sử dụng?",
+        cont: "Thành phần nào của UML được dùng để mô tả kiến trúc vật lý của một hệ thống?",
         answers: [
-            "Mô tả ca sử dụng không phải luôn chứa đủ thông tin để xác định lớp và đối tượng phân tích",
-            "Luồng sự kiện ca sử dụng thường quá phức tạp để thực hiện được",
-            "Người thiết kế cần biết luồng ca sử dụng nào đang được phân tích cho lần lặp hiện thời",
-            "Kiến trúc sư cần phải điều chỉnh các lỗi trước khi chuyển bản đặc tả ca sử dụng cho bên thiết kế"
+            "các lớp và mối quan hệ",
+            "các đối tượng và thông điệp trao đổi",
+            "các hệ thống con và sự phụ thuộc",
+            "các nút và kết nối giữa chúng"
         ],
-        corrects: [0]
+        corrects: [3]
     },
     {
-        cont: "Trong phân tích ca sử dụng, mục đích của bước hợp nhất (unify) các lớp phân tích là gì?",
+        cont: "Trong biểu đồ tuần tự, thành phần nào được dùng để đại diện cho một hệ thống con cụ thể?",
         answers: [
-            "để chắc chắn rằng mỗi lớp phân tích là đại diện cho một khái niệm rạch ròi và không bị trùng khớp trách nhiệm",
-            "để tập hợp các lớp phân tích từ hiệ thực hóa ca sử dụng và đưa chúng vào mô hình thiết kế",
-            "để đảm bảo trách nhiệm của các mỗi là thống nhất và những lớp đó có mục đích rõ ràng",
-            "để tạo họ các lớp khởi tạo ban đầu bằng việc áp dụng thừa kế để nhóm các lớp liên quan theo những cấu trúc cây"
+            "một giao diện mà hệ thống con thực hiện",
+            "một sự ủy quyền của hệ thống con",
+            "một thành phần của hệ thống con",
+            "một lớp của hệ thống con"
         ],
-        corrects: [0]
+        corrects: [2]
     },
     {
-        cont: "Tiến trình nào sau đây là phù hợp nhất cho UML? (Chọn ba)",
+        cont: "Mục đích chính của biểu đồ ca sử dụng là?",
         answers: [
-            "use-case driven",
-            "waterfall development-based",
-            "interative and incremental",
-            "architecture-centric",
-            "requirements-centric"
+            "tạo bảng từ vựng thống nhất giữa người dùng và người phân tích",
+            "biểu diễn tương tác người dùng trong hệ thống",
+            "bổ sung thông tin chi tiết như các thuộc tính hay các phương thức của lớp",
+            "mô hình hóa các tương tác giữa hệ thống và môi trường"
         ],
-        corrects: [0, 2, 3]
+        corrects: [3]
+    },
+    {
+        cont: "Chế tác nào là đầu vào cho khâu xác định phân tử thiết kế?",
+        answers: [
+            "Mô hình triển khai",
+            "Mô hình cài đặt",
+            "Kiến trúc tham chiếu",
+            "Tài liệu kiến trúc phần mềm"
+        ],
+        corrects: [3]
     },
 ]
