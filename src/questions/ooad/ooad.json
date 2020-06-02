@@ -1,0 +1,74 @@
+{
+  "question1": [
+    {
+      "cont": "Phát biểu nào sau đây là chính xác?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "UML là quy trình phát triển các hệ thống phần mềm"
+        },
+        {
+          "key": "B",
+          "text": "UML là ngôn ngữ phụ thuộc vào quy trình phát triển và được sử dụng để biểu diễn trực quan các chế tác phần mềm"
+        },
+        {
+          "key": "C",
+          "text": "UML là ngôn ngữ mô hình hóa cho các bản thiết kế phần mềm"
+        },
+        {
+          "key": "D",
+          "text": "UML là ngôn ngữ lập trình trực quan"
+        }
+      ],
+      "corrects": ["C"]
+    },
+    {
+      "cont": "Đâu là 3 điểm khác biệt giữa lớp cấu trúc và lớp truyền thống (Chọn 3)",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Nó định nghĩa rõ ràng một lớp biên thông qua một vỏ bao đóng (encapsulation shell)"
+        },
+        {
+          "key": "B",
+          "text": "Nó đưa ra các public interfaces cho lớp thông qua các cổng"
+        },
+        {
+          "key": "C",
+          "text": "Nó cho thấy vai trò của lớp"
+        },
+        {
+          "key": "D",
+          "text": "Nó định nghĩa các message giữa chính nó và các lớp khác"
+        }
+      ],
+      "corrects": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "cont": "Đâu là đặc điểm của lớp cấu trúc?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Phải có một giao diện cho mỗi vai trò"
+        },
+        {
+          "key": "B",
+          "text": "Chỉ có thể đóng một vai trò, bất kể có bao nhiêu đối tượng giao dịch với nó"
+        },
+        {
+          "key": "C",
+          "text": "Có thể đóng nhiều vai trò khác nhau dựa trên các đối tượng tương tác với nó"
+        },
+        {
+          "key": "D",
+          "text": "Bị giới hạn ở một vai trò, nhưng có thể có nhiều giao diện"
+        }
+      ],
+      "corrects": ["C"]
+    }
+  ]
+}
