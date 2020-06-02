@@ -4,7 +4,7 @@ import {Button} from "react-bootstrap";
 
 import Question from "./Question";
 
-import ooad from '../questions/ooad/ooad.json'
+import ooad from '../questions/ooad/ooad1.json'
 import PubSub from "pubsub-js";
 
 class QuestionList extends Component{

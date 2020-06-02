@@ -1,0 +1,458 @@
+{
+  "question1": [
+    {
+      "cont": "Phát biểu nào sau đây là chính xác?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "UML là quy trình phát triển các hệ thống phần mềm"
+        },
+        {
+          "key": "B",
+          "text": "UML là ngôn ngữ phụ thuộc vào quy trình phát triển và được sử dụng để biểu diễn trực quan các chế tác phần mềm"
+        },
+        {
+          "key": "C",
+          "text": "UML là ngôn ngữ mô hình hóa cho các bản thiết kế phần mềm"
+        },
+        {
+          "key": "D",
+          "text": "UML là ngôn ngữ lập trình trực quan"
+        }
+      ],
+      "corrects": ["C"]
+    },
+    {
+      "cont": "Đâu là 3 điểm khác biệt giữa lớp cấu trúc và lớp truyền thống (Chọn 3)",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Nó định nghĩa rõ ràng một lớp biên thông qua một vỏ bao đóng (encapsulation shell)"
+        },
+        {
+          "key": "B",
+          "text": "Nó đưa ra các public interfaces cho lớp thông qua các cổng"
+        },
+        {
+          "key": "C",
+          "text": "Nó cho thấy vai trò của lớp"
+        },
+        {
+          "key": "D",
+          "text": "Nó định nghĩa các message giữa chính nó và các lớp khác"
+        }
+      ],
+      "corrects": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "cont": "Đâu là đặc điểm của lớp cấu trúc?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Phải có một giao diện cho mỗi vai trò"
+        },
+        {
+          "key": "B",
+          "text": "Chỉ có thể đóng một vai trò, bất kể có bao nhiêu đối tượng giao dịch với nó"
+        },
+        {
+          "key": "C",
+          "text": "Có thể đóng nhiều vai trò khác nhau dựa trên các đối tượng tương tác với nó"
+        },
+        {
+          "key": "D",
+          "text": "Bị giới hạn ở một vai trò, nhưng có thể có nhiều giao diện"
+        }
+      ],
+      "corrects": ["C"]
+    },
+    {
+      "cont": "Phát biểu nào là đúng về một quá trình phát triển lặp",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Test và tích hợp trong mỗi lần lặp"
+        },
+        {
+          "key": "B",
+          "text": "Mỗi lần lặp lại tập trung vào một phần của hiện thực hóa use-case được lựa chọn"
+        },
+        {
+          "key": "C",
+          "text": "Nó khuyến khích phản hồi người dùng trong các lần lặp sau"
+        },
+        {
+          "key": "D",
+          "text": "Nó dựa trên chức năng phân hủy của một hệ thống"
+        }
+      ],
+      "corrects": ["A"]
+    },
+    {
+      "cont": "Hai câu nào đúng về giao diện?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Giao diện nên có mục đích rõ ràng"
+        },
+        {
+          "key": "B",
+          "text": "Một giao diện duy nhất nên bao gồm càng nhiều phương thức có thể, nếu không phải tất cả các phương thức, có thể được chia sẻ"
+        },
+        {
+          "key": "C",
+          "text": "Một giao diện nên được sử dụng để hạn chế phương thức nào được tiếp xúc với máy khách"
+        },
+        {
+          "key": "D",
+          "text": "Các lớp có thể có nhiều giao diện tùy thuộc vào mục đích của từng giao diện mà nó thực hiện"
+        }
+      ],
+      "corrects": [
+        "A",
+        "D"
+      ]
+    },
+    {
+      "cont": "Trọng tâm của phân tích là gì?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Chuyển các yêu cầu chức năng thành code"
+        },
+        {
+          "key": "B",
+          "text": "Chuyển các yêu cầu thành một thiết kế hệ thống"
+        },
+        {
+          "key": "C",
+          "text": "Chuyển các khái niệm trong thế giới thực sang các solution-oriented objects"
+        },
+        {
+          "key": "D",
+          "text": "Chuyển các yêu cầu chức năng thành các khái niệm phần mềm"
+        }
+      ],
+      "corrects": ["D"]
+    },
+    {
+      "cont": "Tại sao đóng gói lại quan trọng? (Chọn hai)",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Nó mô tả mối quan hệ giữa hai lớp con"
+        },
+        {
+          "key": "B",
+          "text": "Nó đặt các hoạt động và thuộc tính trong cùng một đối tượng"
+        },
+        {
+          "key": "C",
+          "text": "Nó cho phép các đối tượng khác thay đổi các private operations và attributes của một đối tượng"
+        },
+        {
+          "key": "D",
+          "text": "Nó ngăn các đối tượng khác thay đổi trực tiếp các thuộc tính của một đối tượng"
+        }
+      ],
+      "corrects": [
+        "B",
+        "D"
+      ]
+    },
+    {
+      "cont": "Các lớp phân tích là gì?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Các dự đoán ban đầu về cấu trúc của hệ thống, chúng thường thay đổi theo thời gian và hiếm khi tồn tại nguyên vẹn cho đến khi được cài đặt"
+        },
+        {
+          "key": "B",
+          "text": "Các lớp không hoàn thiện mà lập trình viên cần xác lập tên của các thao tác và kiểu của các thuộc tính trước khi chúng có thể cài đặt được"
+        },
+        {
+          "key": "C",
+          "text": "Các lớp bên trong một hệ thống đối tượng nghiệp vụ (Business object) hoặc mô hình miền (Domain Model) sử dụng UML"
+        },
+        {
+          "key": "D",
+          "text": "Một nguyên mẫu (prototype) của giao diện người dùng của một hệ thống, được phát triển trong Pha phân tích, cho phép người dùng xác định giao diện và tương tác với hệ thống"
+        }
+      ],
+      "corrects": ["A"]
+    },
+    {
+      "cont": "Một kiến trúc sư có trách nhiệm tạo ra một mô hình phân tích cho một hệ thống. Để tạo ra mô hình này cần tập trung vào phần nào?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Phần cứng nơi mà hệ thống được triển khai"
+        },
+        {
+          "key": "B",
+          "text": "Hành vi của các đối tượng bao gồm hệ thống"
+        },
+        {
+          "key": "C",
+          "text": "Sự phát triển của hệ thống phân tích vào hệ thống thiết kế"
+        },
+        {
+          "key": "D",
+          "text": "Yêu cầu về hiệu năng của hệ thống"
+        }
+      ],
+      "corrects": ["B"]
+    },
+    {
+      "cont": "Một required interface làm gì?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Trưng bày dịch vụ cho người yêu cầu ẩn danh"
+        },
+        {
+          "key": "B",
+          "text": "Sử dụng các dịch vụ mà trình phân loại yêu cầu để yêu cầu từ các nhà cung cấp ẩn danh"
+        },
+        {
+          "key": "C",
+          "text": "Tuyên bố các dịch vụ mà trình phân loại cung cấp để cung cấp cho người yêu cầu ẩn danh"
+        },
+        {
+          "key": "D",
+          "text": "Trưng bày ra các phương thức mà người yêu cầu phải sử dụng"
+        }
+      ],
+      "corrects": ["B"]
+    },
+    {
+      "cont": "Trong sơ đồ trình tự, mỗi tương tác trên sơ đồ ánh xạ tới",
+      "answers": [
+        {
+          "key": "A",
+          "text": "một điểm lựa chọn trên sơ đồ trạng thái"
+        },
+        {
+          "key": "B",
+          "text": "quá trình chuyển đổi trên sơ đồ trạng thái"
+        },
+        {
+          "key": "C",
+          "text": "một trạng thái trên sơ đồ"
+        },
+        {
+          "key": "D",
+          "text": "trạng thái ban đầu"
+        }
+      ],
+      "corrects": ["B"]
+    },
+    {
+      "cont": "Hai câu hỏi nào cần phải trả lời khi muốn sử dụng mối quan hệ nhiều-nhiều (Chọn hai)?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Đó là mối quan hệ ràng buộc hay tùy chọn?"
+        },
+        {
+          "key": "B",
+          "text": "Có bao nhiêu liên kết một đối tượng của một loại duy trì với các đối tượng của loại khác?"
+        },
+        {
+          "key": "C",
+          "text": "Một đối tượng của một loại nhất định được phép tương tác với các đối tượng của loại khác?"
+        },
+        {
+          "key": "D",
+          "text": "Mối quan hệ giữa các đối tượng là vĩnh viễn hay tạm thời?"
+        }
+      ],
+      "corrects": ["A", "B"]
+    },
+    {
+      "cont": "Hai cân nhắc quan trọng khi vẽ sơ đồ trạng thái là gì?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Bất cứ khi nào một tin nhắn được nhận; có thể có một sự thay đổi của trạng thái"
+        },
+        {
+          "key": "B",
+          "text": "Bất cứ khi nào một tin nhắn được nhận; phải có một sự thay đổi của trạng thái"
+        },
+        {
+          "key": "C",
+          "text": "Bất cứ khi nào có sự thay đổi trạng thái, sẽ có một transition"
+        },
+        {
+          "key": "D",
+          "text": "Thay đổi trạng thái có thể không thay đổi transition"
+        }
+      ],
+      "corrects": ["A", "C"]
+    },
+    {
+      "cont": "Phát biểu nào là đúng về phụ thuộc vòng tròn?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Nó không quan trọng"
+        },
+        {
+          "key": "B",
+          "text": "Nó bị cấm"
+        },
+        {
+          "key": "C",
+          "text": "Nó phải được tránh"
+        },
+        {
+          "key": "D",
+          "text": "Khi có nhiều hơn hai gói (package), chúng không liên quan"
+        }
+      ],
+      "corrects": ["C"]
+    },
+    {
+      "cont": "Mục đích của phân tích kiến ​​trúc là gì ?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "để chi tiết thiết kế của hệ thống"
+        },
+        {
+          "key": "B",
+          "text": "để xem xét kiến ​​trúc của hệ thống"
+        },
+        {
+          "key": "C",
+          "text": "để xác định kiến ​​trúc ứng cử viên cho hệ thống"
+        },
+        {
+          "key": "D",
+          "text": "để xác định các tầng (layers) của kiến ​​trúc"
+        }
+      ],
+      "corrects": ["C"]
+    },
+    {
+      "cont": "Phát biểu nào là đúng về thuộc tính?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Chúng không thể thay đổi một khi đối tượng được khởi tạo"
+        },
+        {
+          "key": "B",
+          "text": "Chúng thay đổi giá trị từ đối tượng sang đối tượng của cùng một lớp"
+        },
+        {
+          "key": "C",
+          "text": "Chúng chỉ có thể là giá trị nguyên thủy"
+        },
+        {
+          "key": "D",
+          "text": "Chúng được yêu cầu cho mọi lớp"
+        }
+      ],
+      "corrects": ["B"]
+    },
+    {
+      "cont": "Phân tích thiết kế hướng đến ba mục đích nào? (Chọn ba)",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Cung cấp một khung cảnh tổ chức cho hệ thống"
+        },
+        {
+          "key": "B",
+          "text": "Chuyển các yêu cầu sang bản thiết kế hệ thống"
+        },
+        {
+          "key": "C",
+          "text": "Tiến hóa và hình thành cấu trúc vững chắc cho hệ thống"
+        },
+        {
+          "key": "D",
+          "text": "Xác định phạm vi của hệ thống và mô tả những gì hệ thống phải làm"
+        },
+        {
+          "key": "E",
+          "text": "Thích ứng bản thiết kế với môi trường cài đặt"
+        }
+      ],
+      "corrects": ["B", "D", "E"]
+    },
+    {
+      "cont": "Các đối tượng đa hình _____",
+      "answers": [
+        {
+          "key": "A",
+          "text": "phải có cùng thuộc tính"
+        },
+        {
+          "key": "B",
+          "text": "chia sẻ tất cả các operation giống nhau và các operation thực hiện như nhau"
+        },
+        {
+          "key": "C",
+          "text": "chỉ có thể được implement thông qua các giao diện"
+        },
+        {
+          "key": "D",
+          "text": "có thể có cùng tên operation nhưng các operation thực hiện khác nhau"
+        }
+      ],
+      "corrects": ["D"]
+    },
+    {
+      "cont": "Trong khâu Phân tích kiến trúc, kiến trúc sư phần mềm phải dựa vào đâu để giảm độ phức tạp của hệ thống và tăng tính nhất quán?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Các quy tắc viết mã"
+        },
+        {
+          "key": "B",
+          "text": "Các hiện thực hóa ca sử dụng"
+        },
+        {
+          "key": "C",
+          "text": "Các cơ chế phân tích"
+        },
+        {
+          "key": "D",
+          "text": "Các cơ chế thiết kế"
+        }
+      ],
+      "corrects": ["C"]
+    },
+    {
+      "cont": "Hai đặc điểm nào mà tất cả các đối tượng có? (Chọn hai)",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Nguyên thủy"
+        },
+        {
+          "key": "B",
+          "text": "Trạng thái và hành vi"
+        },
+        {
+          "key": "C",
+          "text": "Giao diện (interface)"
+        },
+        {
+          "key": "D",
+          "text": "Một định danh riêng"
+        }
+      ],
+      "corrects": ["B", "D"]
+    }
+  ]
+}
