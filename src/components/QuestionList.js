@@ -4,8 +4,10 @@ import {Button} from "react-bootstrap";
 
 import Question from "./Question";
 
-import ooad from '../questions/ooad/ooad1.json'
 import PubSub from "pubsub-js";
+
+import ooad from "../questions/ooad/ooad1";
+// import ooad2 from "../questions/ooad/ooad2";
 
 class QuestionList extends Component{
 
@@ -22,7 +24,6 @@ class QuestionList extends Component{
         return questions
     };
 
-
     render() {
         const questions = this.makeAllQuestions();
         return (
@@ -38,7 +39,6 @@ class QuestionList extends Component{
                         )
                     })
                 }
-
                 <Button variant="primary" onClick={this.checkAnswer}>Submit</Button>
                 <hr />
             </div>
