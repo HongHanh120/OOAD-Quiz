@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import {HashRouter as Router, Route, Link} from 'react-router-dom';
+import {HashRouter as Router, Route} from 'react-router-dom';
 
 import {Container, Jumbotron} from "react-bootstrap";
 
@@ -15,7 +15,6 @@ function App() {
       <Container>
         <Jumbotron>
           <Route path="/" exact component={() => <QuestionList questions={questions} />} />
-
         </Jumbotron>
       </Container>
     </Router>

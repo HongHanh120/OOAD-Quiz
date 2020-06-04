@@ -1,5 +1,5 @@
 {
-  "question": [
+  "questions": [
     {
       "cont": "Phát biểu nào sau đây là chính xác?",
       "answers": [
@@ -901,32 +901,6 @@
         }
       ],
       "corrects": ["A", "C", "D"]
-    },
-    {
-      "cont": "Các lớp phân tích phát triển thành ____ (Chọn hai)",
-      "answers": [
-        {
-          "key": "A",
-          "text": "Các lớp thiết kế"
-        },
-        {
-          "key": "B",
-          "text": "Các hệ thống con"
-        },
-        {
-          "key": "C",
-          "text": "Các hiện thực hóa ca sử dụng"
-        },
-        {
-          "key": "D",
-          "text": "Các gói thiết kế (design packages)"
-        },
-        {
-          "key": "E",
-          "text": "Kiến trúc"
-        }
-      ],
-      "corrects": ["A", "B"]
     },
     {
       "cont": "Trong một sơ đồ trạng thái, một trạng thái có hai chuyển tiếp. Một trong những chuyển đổi là một chuyển tiếp nội bộ và một trong những chuyển tiếp là một chuyển tiếp bên ngoài. Những trạng thái nào có thể thực hiện một hành động thoát?",

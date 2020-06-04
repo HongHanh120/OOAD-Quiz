@@ -15,9 +15,9 @@ class QuestionList extends Component{
         super();
 
         this.dataSet = this.makeAllQuestions();
-        this.totalPages = this.dataSet.length;
-        this.pageSize = 20;
-        this.pagesCount = Math.ceil(this.totalPages / this.pageSize);
+        this.totalQuestions = this.dataSet.length;
+        this.pageSize = typeof this.pageSize === "number" ? this.pageSize : 15;
+        this.pagesCount = Math.ceil(this.totalQuestions / this.pageSize);
 
         this.state = {currentPage: 0};
     }
@@ -43,6 +43,22 @@ class QuestionList extends Component{
         const { currentPage } = this.state;
         return (
             <div className="questions">
+
+                {
+                    this.dataSet.slice(currentPage * this.pageSize, (currentPage + 1) * this.pageSize)
+                    .map((question, i) => {
+                            return (
+                                <Question
+                                    key={i}
+                                    question={question}
+                                    index={i}
+                                />
+                            )
+                        })
+                }
+                <Button variant="primary" onClick={this.checkAnswer}>Submit</Button>
+                <hr />
+
                 <div className="pagination-wrapper">
                     <Pagination aria-label="Page navigation example">
                         <PaginationItem disabled={currentPage <= 0}>
@@ -71,20 +87,7 @@ class QuestionList extends Component{
 
                     </Pagination>
                 </div>
-                {
-                    this.dataSet.slice(currentPage * this.pageSize, (currentPage + 1) * this.pageSize)
-                        .map((question, i) => {
-                            return (
-                                <Question
-                                    key={i}
-                                    question={question}
-                                    index={i}
-                                />
-                            )
-                        })
-                }
-                <Button variant="primary" onClick={this.checkAnswer}>Submit</Button>
-                <hr />
+
                 {/*<div className="questions">*/}
                 {/*    {*/}
                 {/*        questions.map((question, i) => {*/}
