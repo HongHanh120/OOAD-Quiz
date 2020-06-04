@@ -11,9 +11,11 @@
     "pubsub-js": "^1.8.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
+    "react-bootstrap-4-pagination": "^1.0.3",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "reactstrap": "^8.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
