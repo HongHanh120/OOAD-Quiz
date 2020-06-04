@@ -1302,15 +1302,15 @@
       "cont": "Chế tác nào là đầu vào cho khâu xác định phân tử thiết kế?",
       "answers": [
         {
-          "key": "D",
+          "key": "A",
           "text": "Mô hình triển khai"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Mô hình cài đặt"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Kiến trúc tham chiếu"
         },
         {
