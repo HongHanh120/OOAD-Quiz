@@ -24,9 +24,9 @@ class Answer extends React.Component {
         })
     }
 
-    onChangeCheck = (e) => {
-        const {checked} = e.target;
-        this.setState({checked})
+    onChangeCheck = () => {
+        // const {checked} = e.target;
+        this.setState({checked: !this.state.checked})
     };
 
     render() {
@@ -34,7 +34,6 @@ class Answer extends React.Component {
         const {checked, color} = this.state;
 
         const spanClass = checked ? 'checked' : '';
-
         return (
             <div className="Answer form-check" style={{color}}>
                 <label className="form-check-label">
@@ -42,9 +41,16 @@ class Answer extends React.Component {
                         <span className={spanClass}>
                             <input type="checkbox" className="form-check-input-styled" checked={checked}
                                    onChange={this.onChangeCheck}/>
-                            {answer.text}
                         </span>
+                        {answer.text}
                     </div>
+                    {/*<div className="uniform-checker">*/}
+                    {/*    <span className={spanClass}>*/}
+                    {/*        <input type="checkbox" className="form-check-input-styled" checked={checked}*/}
+                    {/*               onChange={this.onChangeCheck}/>*/}
+                    {/*    </span>*/}
+                    {/*    {answer.text}*/}
+                    {/*</div>*/}
                 </label>
             </div>
         );

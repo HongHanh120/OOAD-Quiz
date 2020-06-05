@@ -16,7 +16,7 @@ class QuestionList extends Component{
 
         this.dataSet = this.makeAllQuestions();
         this.totalQuestions = this.dataSet.length;
-        this.pageSize = typeof this.pageSize === "number" ? this.pageSize : 15;
+        this.pageSize = typeof this.pageSize === "number" ? this.pageSize : 20;
         this.pagesCount = Math.ceil(this.totalQuestions / this.pageSize);
 
         this.state = {currentPage: 0};
@@ -43,15 +43,15 @@ class QuestionList extends Component{
         const { currentPage } = this.state;
         return (
             <div className="questions">
-
                 {
                     this.dataSet.slice(currentPage * this.pageSize, (currentPage + 1) * this.pageSize)
-                    .map((question, i) => {
+                    .map((question) => {
                             return (
                                 <Question
-                                    key={i}
+                                    key={question.position}
                                     question={question}
-                                    index={i}
+                                    // index={i}
+                                    // position={i + currentPage*this.pageSize + 1}
                                 />
                             )
                         })
@@ -84,7 +84,6 @@ class QuestionList extends Component{
                                 href="#"
                             />
                         </PaginationItem>
-
                     </Pagination>
                 </div>
 

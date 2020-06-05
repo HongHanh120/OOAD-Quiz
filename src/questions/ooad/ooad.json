@@ -20,7 +20,8 @@
           "text": "UML là ngôn ngữ lập trình trực quan"
         }
       ],
-      "corrects": ["C"]
+      "corrects": ["C"],
+      "position": 1
     },
     {
       "cont": "Đâu là 3 điểm khác biệt giữa lớp cấu trúc và lớp truyền thống (Chọn 3)",
@@ -46,7 +47,8 @@
         "A",
         "B",
         "C"
-      ]
+      ],
+      "position": 2
     },
     {
       "cont": "Đâu là đặc điểm của lớp cấu trúc?",
@@ -68,7 +70,8 @@
           "text": "Bị giới hạn ở một vai trò, nhưng có thể có nhiều giao diện"
         }
       ],
-      "corrects": ["C"]
+      "corrects": ["C"],
+      "position": 3
     },
     {
       "cont": "Phát biểu nào là đúng về một quá trình phát triển lặp",
@@ -90,7 +93,8 @@
           "text": "Nó dựa trên chức năng phân hủy của một hệ thống"
         }
       ],
-      "corrects": ["A"]
+      "corrects": ["A"],
+      "position": 4
     },
     {
       "cont": "Hai câu nào đúng về giao diện?",
@@ -115,7 +119,8 @@
       "corrects": [
         "A",
         "D"
-      ]
+      ],
+      "position": 5
     },
     {
       "cont": "Trọng tâm của phân tích là gì?",
@@ -137,7 +142,8 @@
           "text": "Chuyển các yêu cầu chức năng thành các khái niệm phần mềm"
         }
       ],
-      "corrects": ["D"]
+      "corrects": ["D"],
+      "position": 6
     },
     {
       "cont": "Tại sao đóng gói lại quan trọng? (Chọn hai)",
@@ -162,7 +168,8 @@
       "corrects": [
         "B",
         "D"
-      ]
+      ],
+      "position": 7
     },
     {
       "cont": "Các lớp phân tích là gì?",
@@ -184,7 +191,8 @@
           "text": "Một nguyên mẫu (prototype) của giao diện người dùng của một hệ thống, được phát triển trong Pha phân tích, cho phép người dùng xác định giao diện và tương tác với hệ thống"
         }
       ],
-      "corrects": ["A"]
+      "corrects": ["A"],
+      "position": 8
     },
     {
       "cont": "Một kiến trúc sư có trách nhiệm tạo ra một mô hình phân tích cho một hệ thống. Để tạo ra mô hình này cần tập trung vào phần nào?",
@@ -206,7 +214,8 @@
           "text": "Yêu cầu về hiệu năng của hệ thống"
         }
       ],
-      "corrects": ["B"]
+      "corrects": ["B"],
+      "position": 9
     },
     {
       "cont": "Một required interface làm gì?",
@@ -228,7 +237,8 @@
           "text": "Trưng bày ra các phương thức mà người yêu cầu phải sử dụng"
         }
       ],
-      "corrects": ["B"]
+      "corrects": ["B"],
+      "position": 10
     },
     {
       "cont": "Trong sơ đồ trình tự, mỗi tương tác trên sơ đồ ánh xạ tới",
@@ -250,7 +260,8 @@
           "text": "trạng thái ban đầu"
         }
       ],
-      "corrects": ["B"]
+      "corrects": ["B"],
+      "position": 11
     },
     {
       "cont": "Hai câu hỏi nào cần phải trả lời khi muốn sử dụng mối quan hệ nhiều-nhiều (Chọn hai)?",
@@ -272,7 +283,8 @@
           "text": "Mối quan hệ giữa các đối tượng là vĩnh viễn hay tạm thời?"
         }
       ],
-      "corrects": ["A", "B"]
+      "corrects": ["A", "B"],
+      "position": 12
     },
     {
       "cont": "Hai cân nhắc quan trọng khi vẽ sơ đồ trạng thái là gì?",
@@ -294,7 +306,8 @@
           "text": "Thay đổi trạng thái có thể không thay đổi transition"
         }
       ],
-      "corrects": ["A", "C"]
+      "corrects": ["A", "C"],
+      "position": 13
     },
     {
       "cont": "Phát biểu nào là đúng về phụ thuộc vòng tròn?",
@@ -316,7 +329,8 @@
           "text": "Khi có nhiều hơn hai gói (package), chúng không liên quan"
         }
       ],
-      "corrects": ["C"]
+      "corrects": ["C"],
+      "position": 14
     },
     {
       "cont": "Mục đích của phân tích kiến ​​trúc là gì ?",
@@ -338,7 +352,8 @@
           "text": "để xác định các tầng (layers) của kiến ​​trúc"
         }
       ],
-      "corrects": ["C"]
+      "corrects": ["C"],
+      "position": 15
     },
     {
       "cont": "Phát biểu nào là đúng về thuộc tính?",
@@ -360,7 +375,8 @@
           "text": "Chúng được yêu cầu cho mọi lớp"
         }
       ],
-      "corrects": ["B"]
+      "corrects": ["B"],
+      "position": 16
     },
     {
       "cont": "Phân tích thiết kế hướng đến ba mục đích nào? (Chọn ba)",
@@ -386,7 +402,8 @@
           "text": "Thích ứng bản thiết kế với môi trường cài đặt"
         }
       ],
-      "corrects": ["B", "D", "E"]
+      "corrects": ["B", "D", "E"],
+      "position": 17
     },
     {
       "cont": "Các đối tượng đa hình _____",
@@ -408,7 +425,8 @@
           "text": "có thể có cùng tên operation nhưng các operation thực hiện khác nhau"
         }
       ],
-      "corrects": ["D"]
+      "corrects": ["D"],
+      "position": 18
     },
     {
       "cont": "Trong khâu Phân tích kiến trúc, kiến trúc sư phần mềm phải dựa vào đâu để giảm độ phức tạp của hệ thống và tăng tính nhất quán?",
@@ -430,7 +448,8 @@
           "text": "Các cơ chế thiết kế"
         }
       ],
-      "corrects": ["C"]
+      "corrects": ["C"],
+      "position": 19
     },
     {
       "cont": "Hai đặc điểm nào mà tất cả các đối tượng có? (Chọn hai)",
@@ -452,7 +471,8 @@
           "text": "Một định danh riêng"
         }
       ],
-      "corrects": ["B", "D"]
+      "corrects": ["B", "D"],
+      "position": 20
     },
     {
       "cont": "Các lớp phân tích phát triển thành ____ (Chọn hai)",
@@ -478,7 +498,8 @@
           "text": "Kiến trúc"
         }
       ],
-      "corrects": ["A", "B"]
+      "corrects": ["A", "B"],
+      "position": 21
     },
     {
       "cont": "Chuyện gì xảy ra khi một lớp cha thay đổi?",
@@ -500,7 +521,8 @@
           "text": "Chỉ có các phương thức được kế thừa từ class cha thay đổi"
         }
       ],
-      "corrects": ["A"]
+      "corrects": ["A"],
+      "position": 22
     },
     {
       "cont": "Phát biểu nào là đúng với hiện thực hóa ca sử dụng?",
@@ -522,7 +544,8 @@
           "text": "Thẩm định sự tương ứng từ phân tích và thiết kế với đặc tả yêu cầu"
         }
       ],
-      "corrects": ["D"]
+      "corrects": ["D"],
+      "position": 23
     },
     {
       "cont": "Trạng thái nào KHÔNG chứa trạng thái khác?",
@@ -544,7 +567,8 @@
           "text": "Bottom State"
         }
       ],
-      "corrects": ["C"]
+      "corrects": ["C"],
+      "position": 24
     },
     {
       "cont": "Phát biểu nào là đúng về việc nhóm các thành phần vào một gói?",
@@ -566,7 +590,8 @@
           "text": "Các gói không nên chứa các gói khác"
         }
       ],
-      "corrects": ["A"]
+      "corrects": ["A"],
+      "position": 25
     },
     {
       "cont": "Có ba phân nhóm cơ chế kiến trúc bao gồm: (Chọn ba)",
@@ -588,7 +613,8 @@
           "text": "Các cơ chế thiết kế"
         }
       ],
-      "corrects": ["A", "C", "D"]
+      "corrects": ["A", "C", "D"],
+      "position": 26
     },
     {
       "cont": "Trong biểu đồ tuần tự, những gì có thể được xác định bởi các tương tác giữa các thành phần ?",
@@ -610,7 +636,8 @@
           "text": "Tên của giao diện"
         }
       ],
-      "corrects": ["C"]
+      "corrects": ["C"],
+      "position": 27
     },
     {
       "cont": "Khung nhìn nào tập trung vào hiện thực hóa vật lý của hệ thống ?",
@@ -632,7 +659,8 @@
           "text": "Khung ca sử dụng"
         }
       ],
-      "corrects": ["B"]
+      "corrects": ["B"],
+      "position": 28
     },
     {
       "cont": "Phát biểu nào là đúng về một active object?",
@@ -654,7 +682,8 @@
           "text": "Nó không có cấu trúc để cho phép lớp được thao tác dễ dàng"
         }
       ],
-      "corrects": ["A"]
+      "corrects": ["A"],
+      "position": 29
     },
     {
       "cont": "Trong khâu Phân tích ca sử dụng, hành vi nào được phân bố cho các lớp điều khiển?",
@@ -676,7 +705,8 @@
           "text": "Hành vi đặc thù về quy tắc nghiệp vụ hoặc luồng nghiệp vụ"
         }
       ],
-      "corrects": ["A"]
+      "corrects": ["A"],
+      "position": 30
     },
     {
       "cont": "Ba nguồn để xác định Trừu tượng chính là gì? (Chọn ba)",
@@ -698,7 +728,8 @@
           "text": "Bảng thuật ngữ"
         }
       ],
-      "corrects": ["A", "B", "D"]
+      "corrects": ["A", "B", "D"],
+      "position": 31
     },
     {
       "cont": "Đâu là một tên của object trong UML?",
@@ -720,7 +751,8 @@
           "text": "::employee"
         }
       ],
-      "corrects": ["A"]
+      "corrects": ["A"],
+      "position": 32
     },
     {
       "cont": "Trong Phân tích ca sử dụng, một thuộc tính nên được sử dụng thay vì một lớp khi thông tin ___",
@@ -742,7 +774,8 @@
           "text": "được nhắc đến và sử dụng nhiều lần trong suốt quá trình thực hiện ca sử dụng"
         }
       ],
-      "corrects": ["A"]
+      "corrects": ["A"],
+      "position": 33
     },
     {
       "cont": "Khung nhìn 4+1 nào dưới đây tập trung vào khâu Mô tả Phân tán?",
@@ -764,7 +797,8 @@
           "text": "Khung cài đặt"
         }
       ],
-      "corrects": ["B"]
+      "corrects": ["B"],
+      "position": 34
     },
     {
       "cont": "Chức năng của mô hình hóa trực quan là gì? (Chọn hai)",
@@ -786,7 +820,8 @@
           "text": "làm tài liệu về hành vi và cấu trúc của hệ thống trước khi viết mã cho chương trình"
         }
       ],
-      "corrects": ["B", "D"]
+      "corrects": ["B", "D"],
+      "position": 35
     },
     {
       "cont": "Trong phân tích ca sử dụng, tại sao nên sử dụng các cơ chế Phân tích?",
@@ -808,7 +843,8 @@
           "text": "Để chứng minh rằng các nhà thiết kế đã thực hiện chính xác như thiết kế của các kiến trúc sư"
         }
       ],
-      "corrects": ["A"]
+      "corrects": ["A"],
+      "position": 36
     },
     {
       "cont": "Phát biểu nào là chính xác về các pattern?",
@@ -830,7 +866,8 @@
           "text": "Pattern chỉ được sử dụng trong Giai đoạn xây dựng (Elaboration Phase)"
         }
       ],
-      "corrects": ["B"]
+      "corrects": ["B"],
+      "position": 37
     },
     {
       "cont": "Trong khâu Phân tích ca sử dụng, tại sao thường phải bổ sung các mô tả ca sử dụng?",
@@ -852,7 +889,8 @@
           "text": "Kiến trúc sư cần phải điều chỉnh các lỗi trước khi chuyển bản đặc tả ca sử dụng cho bên thiết kế"
         }
       ],
-      "corrects": ["A"]
+      "corrects": ["A"],
+      "position": 38
     },
     {
       "cont": "Trong phân tích ca sử dụng, mục đích của bước hợp nhất (unify) các lớp phân tích là gì?",
@@ -874,7 +912,8 @@
           "text": "để tạo họ các lớp khởi tạo ban đầu bằng việc áp dụng thừa kế để nhóm các lớp liên quan theo những cấu trúc cây"
         }
       ],
-      "corrects": ["A"]
+      "corrects": ["A"],
+      "position": 39
     },
     {
       "cont": "Tiến trình nào sau đây là phù hợp nhất cho UML? (Chọn ba)",
@@ -900,7 +939,8 @@
           "text": "requirements-centric"
         }
       ],
-      "corrects": ["A", "C", "D"]
+      "corrects": ["A", "C", "D"],
+      "position": 40
     },
     {
       "cont": "Trong một sơ đồ trạng thái, một trạng thái có hai chuyển tiếp. Một trong những chuyển đổi là một chuyển tiếp nội bộ và một trong những chuyển tiếp là một chuyển tiếp bên ngoài. Những trạng thái nào có thể thực hiện một hành động thoát?",
@@ -922,7 +962,8 @@
           "text": "Cả 2 đều đúng"
         }
       ],
-      "corrects": ["B"]
+      "corrects": ["B"],
+      "position": 41
     },
     {
       "cont": "Các lớp kiến ​​trúc thường được mô hình hóa trong UML bằng cách sử dụng một ___",
@@ -944,7 +985,8 @@
           "text": "class diagram entitled Layer"
         }
       ],
-      "corrects": ["A"]
+      "corrects": ["A"],
+      "position": 42
     },
     {
       "cont": "Hai câu nào là đúng về use-case driven processes? (Chọn hai)",
@@ -966,7 +1008,8 @@
           "text": "Các ca sử dụng xác định cách thức thực hiện hành vi hệ thống"
         }
       ],
-      "corrects": ["A", "B"]
+      "corrects": ["A", "B"],
+      "position": 43
     },
     {
       "cont": "Cơ chế chung nào của UML cho phép nhóm các thành phần vào trong cùng một nhóm?",
@@ -988,7 +1031,8 @@
           "text": "một biểu đồ phức hợp (composite diagram)"
         }
       ],
-      "corrects": ["C"]
+      "corrects": ["C"],
+      "position": 44
     },
     {
       "cont": "Trong phân tích ca sử dụng, cần bao nhiêu biểu đồ tương tác (tuần tự hoặc giao tiếp) cho mỗi ca sử dụng?",
@@ -1010,7 +1054,8 @@
           "text": "mỗi loại một biểu đồ cho từng ca sử dụng"
         }
       ],
-      "corrects": ["A"]
+      "corrects": ["A"],
+      "position": 45
     },
     {
       "cont": "Trong phân tích ca sử dụng, các lớp biên có những chức năng gì?",
@@ -1032,7 +1077,8 @@
           "text": "Định nghĩa các điểm truy nhập tới mô hình dữ liệu đối tượng của hệ thống"
         }
       ],
-      "corrects": ["A"]
+      "corrects": ["A"],
+      "position": 46
     },
     {
       "cont": "Đâu là ba mục đích của thiết kế ca sử dụng? (Chọn ba)",
@@ -1054,7 +1100,8 @@
           "text": "để làm mịn các yêu cầu về các thao tác (operations) của các hệ thống con thiết kế và các giao diện (interfaces)"
         }
       ],
-      "corrects": ["A", "C", "D"]
+      "corrects": ["A", "C", "D"],
+      "position": 47
     },
     {
       "cont": "Mục đích của thiết kế hệ thống con là gì?",
@@ -1076,7 +1123,8 @@
           "text": "xác định xem mỗi hệ thống con sẽ được cài đặt tại tầng nào và cơ chế giao tiếp nào sẽ được sử dụng giữa chúng"
         }
       ],
-      "corrects": ["C"]
+      "corrects": ["C"],
+      "position": 48
     },
     {
       "cont": "Thành phần nào được dùng để mô tả hiện thực hóa ca sử dụng?",
@@ -1098,7 +1146,8 @@
           "text": "các biểu đồ hoạt động"
         }
       ],
-      "corrects": ["B"]
+      "corrects": ["B"],
+      "position": 49
     },
     {
       "cont": "Phát biểu nào đúng về các hệ thống con trong thiết kế?",
@@ -1120,7 +1169,8 @@
           "text": "Chúng chỉ có thể chứa các lớp thiết kế"
         }
       ],
-      "corrects": ["B"]
+      "corrects": ["B"],
+      "position": 50
     },
     {
       "cont": "Một hệ thống con nên ___",
@@ -1142,7 +1192,8 @@
           "text": "chạy cho các dịch vụ của riêng nó"
         }
       ],
-      "corrects": ["A"]
+      "corrects": ["A"],
+      "position": 51
     },
     {
       "cont": "Câu nào là đúng về gói và hệ thống con?",
@@ -1164,7 +1215,8 @@
           "text": "Sử dụng gói khi cần đóng gói hành vi"
         }
       ],
-      "corrects": ["C"]
+      "corrects": ["C"],
+      "position": 52
     },
     {
       "cont": "Trong thiết kế hệ thống con có bao nhiêu biểu đồ tương tác (tuần tự hoặc giao tiếp) được tạo ra?",
@@ -1186,7 +1238,8 @@
           "text": "mỗi biểu đồ tương tác cho từng lớp"
         }
       ],
-      "corrects": ["A"]
+      "corrects": ["A"],
+      "position": 53
     },
     {
       "cont": "Hai phát biểu nào sau đây là chính xác về hiện thực hóa ca sử dụng? (Chọn hai)",
@@ -1208,7 +1261,8 @@
           "text": "mô tả ca sử dụng thông qua sự cộng tác giữa các đối tượng"
         }
       ],
-      "corrects": ["B", "D"]
+      "corrects": ["B", "D"],
+      "position": 54
     },
     {
       "cont": "Trách nhiệm của các hệ thống con được xác định dựa vào đâu?",
@@ -1230,7 +1284,8 @@
           "text": "các thao tác của lớp được chứa trong hệ thống con"
         }
       ],
-      "corrects": ["B"]
+      "corrects": ["B"],
+      "position": 55
     },
     {
       "cont": "Thành phần nào của UML được dùng để mô tả kiến trúc vật lý của một hệ thống?",
@@ -1252,7 +1307,8 @@
           "text": "các nút và kết nối giữa chúng"
         }
       ],
-      "corrects": ["D"]
+      "corrects": ["D"],
+      "position": 56
     },
     {
       "cont": "Trong biểu đồ tuần tự, thành phần nào được dùng để đại diện cho một hệ thống con cụ thể?",
@@ -1274,7 +1330,8 @@
           "text": "một lớp của hệ thống con"
         }
       ],
-      "corrects": ["C"]
+      "corrects": ["C"],
+      "position": 57
     },
     {
       "cont": "Mục đích chính của biểu đồ ca sử dụng là?",
@@ -1296,7 +1353,8 @@
           "text": "mô hình hóa các tương tác giữa hệ thống và môi trường"
         }
       ],
-      "corrects": ["D"]
+      "corrects": ["D"],
+      "position": 58
     },
     {
       "cont": "Chế tác nào là đầu vào cho khâu xác định phân tử thiết kế?",
@@ -1318,7 +1376,8 @@
           "text": "Tài liệu kiến trúc phần mềm"
         }
       ],
-      "corrects": ["D"]
+      "corrects": ["D"],
+      "position": 59
     }
   ]
 }
