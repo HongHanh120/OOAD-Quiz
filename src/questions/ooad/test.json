@@ -1,0 +1,301 @@
+{ "questions":[
+{
+  "cont": "Đâu là ba mục đích của thiết kế ca sử dụng? (Chọn ba)",
+  "answers": [
+    {
+      "key": "A",
+      "text": "để làm mịn các hiện thực hóa ca sử dụng về mặt tương tác"
+    },
+    {
+      "key": "B",
+      "text": "để đảm bảo tính đầy đủ của các lớp tham gia (View of Participating Classes) cho mỗi hiện thực hóa ca sử dụng"
+    },
+    {
+      "key": "C",
+      "text": "để làm mịn các yêu cầu về các thao tác của lớp thiết kế"
+    },
+    {
+      "key": "D",
+      "text": "để làm mịn các yêu cầu về các thao tác (operations) của các hệ thống con thiết kế và các giao diện (interfaces)"
+    }
+  ],
+  "corrects": ["A", "C", "D"],
+  "position": 47
+},
+{
+"cont": "Mục đích của thiết kế hệ thống con là gì?",
+"answers": [
+{
+"key": "A",
+"text": "hoàn thiện chi tiết của từng interface mà hệ thống con cài đặt"
+},
+{
+"key": "B",
+"text": "phân chia hệ thống thành các hệ thống con nhằm phân các hệ thống con đó cho các đội phát triển khác nhau"
+},
+{
+"key": "C",
+"text": "định nghĩa các hành vi được đặc tả trong các interfaces của hệ thống con theo sự cộng tác giữa các phần tử thiết kế bên trong hệ thống con đó"
+},
+{
+"key": "D",
+"text": "xác định xem mỗi hệ thống con sẽ được cài đặt tại tầng nào và cơ chế giao tiếp nào sẽ được sử dụng giữa chúng"
+}
+],
+"corrects": ["C"],
+"position": 48
+},
+{
+"cont": "Thành phần nào được dùng để mô tả hiện thực hóa ca sử dụng?",
+"answers": [
+{
+"key": "A",
+"text": "các đặc tả ca sử dụng"
+},
+{
+"key": "B",
+"text": "các biểu đồ giao tiếp"
+},
+{
+"key": "C",
+"text": "các biểu đồ trạng thái"
+},
+{
+"key": "D",
+"text": "các biểu đồ hoạt động"
+}
+],
+"corrects": ["B"],
+"position": 49
+},
+{
+"cont": "Phát biểu nào đúng về các hệ thống con trong thiết kế?",
+"answers": [
+{
+"key": "A",
+"text": "Chúng đóng gói (encapsulate) một phần hành vi"
+},
+{
+"key": "B",
+"text": "Chúng đại diện một chức năng độc lập với các giao diện (interface) được định nghĩa rõ ràng"
+},
+{
+"key": "C",
+"text": "Chúng mô hình hóa một cách cài đặt"
+},
+{
+"key": "D",
+"text": "Chúng chỉ có thể chứa các lớp thiết kế"
+}
+],
+"corrects": ["B"],
+"position": 50
+},
+{
+"cont": "Một hệ thống con nên ___",
+"answers": [
+{
+"key": "A",
+"text": "phụ thuộc vào các giao diện của hệ thống khác"
+},
+{
+"key": "B",
+"text": "chỉ phụ thuộc vào chính nó"
+},
+{
+"key": "C",
+"text": "là một tập nhỏ các lớp được định nghĩa rõ ràng và cung cấp những APIs cho bên ngoài"
+},
+{
+"key": "D",
+"text": "chạy cho các dịch vụ của riêng nó"
+}
+],
+"corrects": ["A"],
+"position": 51
+},
+{
+"cont": "Câu nào là đúng về gói và hệ thống con?",
+"answers": [
+{
+"key": "A",
+"text": "Một gói không thể chứa một hệ thống con"
+},
+{
+"key": "B",
+"text": "Một gói cung cấp hành vi"
+},
+{
+"key": "C",
+"text": "Một hệ thống con cung cấp hành vi"
+},
+{
+"key": "D",
+"text": "Sử dụng gói khi cần đóng gói hành vi"
+}
+],
+"corrects": ["C"],
+"position": 52
+},
+{
+"cont": "Trong thiết kế hệ thống con có bao nhiêu biểu đồ tương tác (tuần tự hoặc giao tiếp) được tạo ra?",
+"answers": [
+{
+"key": "A",
+"text": "ít nhất một biểu đồ tương tác cho mỗi giao diện"
+},
+{
+"key": "B",
+"text": "một biểu đồ tương tác cho mỗi hiện thực hóa giao diện"
+},
+{
+"key": "C",
+"text": "ít nhất một biểu đồ tương tác cho mỗi sử dụng của giao diện ngoài"
+},
+{
+"key": "D",
+"text": "mỗi biểu đồ tương tác cho từng lớp"
+}
+],
+"corrects": ["A"],
+"position": 53
+},
+{
+"cont": "Hai phát biểu nào sau đây là chính xác về hiện thực hóa ca sử dụng? (Chọn hai)",
+"answers": [
+{
+"key": "A",
+"text": "liệt kê các bước khác nhau được thực hiện bởi ca sử dụng"
+},
+{
+"key": "B",
+"text": "cung cấp sự lần vết từ phân tích và thiết kế ngược trở lại đặc tả yêu cầu"
+},
+{
+"key": "C",
+"text": "được tạo bởi các nhà phân tích hệ thống"
+},
+{
+"key": "D",
+"text": "mô tả ca sử dụng thông qua sự cộng tác giữa các đối tượng"
+}
+],
+"corrects": ["B", "D"],
+"position": 54
+},
+{
+"cont": "Trách nhiệm của các hệ thống con được xác định dựa vào đâu?",
+"answers": [
+{
+"key": "A",
+"text": "hành vi của các lớp trong hệ thống con"
+},
+{
+"key": "B",
+"text": "các thao tác của giao diện hệ thống con"
+},
+{
+"key": "C",
+"text": "các hiện thực hóa ca sử dụng trong đó có các hệ thống con"
+},
+{
+"key": "D",
+"text": "các thao tác của lớp được chứa trong hệ thống con"
+}
+],
+"corrects": ["B"],
+"position": 55
+},
+{
+"cont": "Thành phần nào của UML được dùng để mô tả kiến trúc vật lý của một hệ thống?",
+"answers": [
+{
+"key": "A",
+"text": "các lớp và mối quan hệ"
+},
+{
+"key": "B",
+"text": "các đối tượng và thông điệp trao đổi"
+},
+{
+"key": "C",
+"text": "các hệ thống con và sự phụ thuộc"
+},
+{
+"key": "D",
+"text": "các nút và kết nối giữa chúng"
+}
+],
+"corrects": ["D"],
+"position": 56
+},
+{
+"cont": "Trong biểu đồ tuần tự, thành phần nào được dùng để đại diện cho một hệ thống con cụ thể?",
+"answers": [
+{
+"key": "A",
+"text": "một giao diện mà hệ thống con thực hiện"
+},
+{
+"key": "B",
+"text": "một sự ủy quyền của hệ thống con"
+},
+{
+"key": "C",
+"text": "một thành phần của hệ thống con"
+},
+{
+"key": "D",
+"text": "một lớp của hệ thống con"
+}
+],
+"corrects": ["C"],
+"position": 57
+},
+{
+"cont": "Mục đích chính của biểu đồ ca sử dụng là?",
+"answers": [
+{
+"key": "A",
+"text": "tạo bảng từ vựng thống nhất giữa người dùng và người phân tích"
+},
+{
+"key": "B",
+"text": "biểu diễn tương tác người dùng trong hệ thống"
+},
+{
+"key": "C",
+"text": "bổ sung thông tin chi tiết như các thuộc tính hay các phương thức của lớp"
+},
+{
+"key": "D",
+"text": "mô hình hóa các tương tác giữa hệ thống và môi trường"
+}
+],
+"corrects": ["D"],
+"position": 58
+},
+{
+"cont": "Chế tác nào là đầu vào cho khâu xác định phân tử thiết kế?",
+"answers": [
+{
+"key": "A",
+"text": "Mô hình triển khai"
+},
+{
+"key": "B",
+"text": "Mô hình cài đặt"
+},
+{
+"key": "C",
+"text": "Kiến trúc tham chiếu"
+},
+{
+"key": "D",
+"text": "Tài liệu kiến trúc phần mềm"
+}
+],
+"corrects": ["D"],
+"position": 59
+}]
+}

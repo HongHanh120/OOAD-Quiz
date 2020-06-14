@@ -8,9 +8,9 @@ class Question extends Component {
 
     render() {
         const {question} = this.props;
-        // const answers = question["answers"];
+        const answers = question["answers"];
         // const answers = question.answers;
-        const answers = question["answers"].sort(() => 0.5 - Math.random());
+        // const answers = question["answers"].sort(() => 0.5 - Math.random());
         return (
             <div className= "question">
                 <div className="form-group pt-2">

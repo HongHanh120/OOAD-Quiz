@@ -195,6 +195,29 @@
       "position": 8
     },
     {
+      "cont": "Một kiến trúc sư nhìn vào 2 lớp sau đây. Lớp đầu tiên có các phương thức: getName(),getSize(),getTotal(), and findAverage(). Lớp thứ hai có các phương thức: getName(),getSize(), findAverage(), findMinimum(), and findMaximum(). Hai lớp này cùng là lớp con của một lớp cha. Trong lớp cha này gồm những phương thức nào dưới đây?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "getName(), getSize(), and findAverage()"
+        },
+        {
+          "key": "B",
+          "text": "findMaximum(), findMinimum(), getSize(), and getTotal()"
+        },
+        {
+          "key": "C",
+          "text": "getName(), findAverage(), and findMaximum()"
+        },
+        {
+          "key": "D",
+          "text": "getName(), getSize(), getTotal(), and findAverage()"
+        }
+      ],
+      "corrects": ["A"],
+      "position": 9
+    },
+    {
       "cont": "Một kiến trúc sư có trách nhiệm tạo ra một mô hình phân tích cho một hệ thống. Để tạo ra mô hình này cần tập trung vào phần nào?",
       "answers": [
         {
@@ -215,10 +238,10 @@
         }
       ],
       "corrects": ["B"],
-      "position": 9
+      "position": 10
     },
     {
-      "cont": "Một required interface làm gì?",
+      "cont": "Một giao diện yêu cầu (required interface) làm gì?",
       "answers": [
         {
           "key": "A",
@@ -238,7 +261,7 @@
         }
       ],
       "corrects": ["B"],
-      "position": 10
+      "position": 11
     },
     {
       "cont": "Trong sơ đồ trình tự, mỗi tương tác trên sơ đồ ánh xạ tới",
@@ -261,7 +284,7 @@
         }
       ],
       "corrects": ["B"],
-      "position": 11
+      "position": 12
     },
     {
       "cont": "Hai câu hỏi nào cần phải trả lời khi muốn sử dụng mối quan hệ nhiều-nhiều (Chọn hai)?",
@@ -284,7 +307,7 @@
         }
       ],
       "corrects": ["A", "B"],
-      "position": 12
+      "position": 13
     },
     {
       "cont": "Hai cân nhắc quan trọng khi vẽ sơ đồ trạng thái là gì?",
@@ -307,7 +330,7 @@
         }
       ],
       "corrects": ["A", "C"],
-      "position": 13
+      "position": 14
     },
     {
       "cont": "Phát biểu nào là đúng về phụ thuộc vòng tròn?",
@@ -330,7 +353,7 @@
         }
       ],
       "corrects": ["C"],
-      "position": 14
+      "position": 15
     },
     {
       "cont": "Mục đích của phân tích kiến ​​trúc là gì ?",
@@ -353,7 +376,30 @@
         }
       ],
       "corrects": ["C"],
-      "position": 15
+      "position": 16
+    },
+    {
+      "cont": "Khi các giao diện giữa hai lớp được xác định từ biểu đồ tuần tự, các cổng được xác định bởi _____.",
+      "answers": [
+        {
+          "key": "A",
+          "text": "giao diện"
+        },
+        {
+          "key": "B",
+          "text": "các phương thức của lớp được thực thi"
+        },
+        {
+          "key": "C",
+          "text": "người dùng của hệ thống"
+        },
+        {
+          "key": "D",
+          "text": "các thuộc tính thông qua các biểu đồ tuần tự"
+        }
+      ],
+      "corrects": ["A"],
+      "position": 17
     },
     {
       "cont": "Phát biểu nào là đúng về thuộc tính?",
@@ -376,7 +422,7 @@
         }
       ],
       "corrects": ["B"],
-      "position": 16
+      "position": 18
     },
     {
       "cont": "Phân tích thiết kế hướng đến ba mục đích nào? (Chọn ba)",
@@ -403,7 +449,7 @@
         }
       ],
       "corrects": ["B", "D", "E"],
-      "position": 17
+      "position": 19
     },
     {
       "cont": "Các đối tượng đa hình _____",
@@ -426,7 +472,30 @@
         }
       ],
       "corrects": ["D"],
-      "position": 18
+      "position": 20
+    },
+    {
+      "cont": "Đâu là một kinh nghiệm thực tiễn (best practice) cho các lớp có cấu trúc lồng nhau?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "nên giới hạn các lớp có cấu trúc lồng nhau chỉ đến hai mức trên một biểu đồ."
+        },
+        {
+          "key": "B",
+          "text": "nên hiển thị hết tất cả các lớp cấu trúc con của lớp cấu trúc trong một biểu đồ để hiển thị độ sâu sự tương tác."
+        },
+        {
+          "key": "C",
+          "text": "nên được giới hạn đến một mức, như vậy cho phép người dùng chuyển từ biểu đồ này đến biểu đồ khác để hiển thị mức tiếp theo."
+        },
+        {
+          "key": "D",
+          "text": "nên được xác định bởi người kiến trúc sư trong suốt pha thiết kế."
+        }
+      ],
+      "corrects": ["A"],
+      "position": 21
     },
     {
       "cont": "Trong khâu Phân tích kiến trúc, kiến trúc sư phần mềm phải dựa vào đâu để giảm độ phức tạp của hệ thống và tăng tính nhất quán?",
@@ -449,7 +518,7 @@
         }
       ],
       "corrects": ["C"],
-      "position": 19
+      "position": 22
     },
     {
       "cont": "Hai đặc điểm nào mà tất cả các đối tượng có? (Chọn hai)",
@@ -472,7 +541,7 @@
         }
       ],
       "corrects": ["B", "D"],
-      "position": 20
+      "position": 23
     },
     {
       "cont": "Các lớp phân tích phát triển thành ____ (Chọn hai)",
@@ -499,7 +568,7 @@
         }
       ],
       "corrects": ["A", "B"],
-      "position": 21
+      "position": 24
     },
     {
       "cont": "Chuyện gì xảy ra khi một lớp cha thay đổi?",
@@ -522,10 +591,10 @@
         }
       ],
       "corrects": ["A"],
-      "position": 22
+      "position": 25
     },
     {
-      "cont": "Phát biểu nào là đúng với hiện thực hóa ca sử dụng?",
+      "cont": "Phát biểu nào là đúng với hiện thực hóa ca sử dụng? (Chọn hai)",
       "answers": [
         {
           "key": "A",
@@ -544,31 +613,31 @@
           "text": "Thẩm định sự tương ứng từ phân tích và thiết kế với đặc tả yêu cầu"
         }
       ],
-      "corrects": ["D"],
-      "position": 23
+      "corrects": ["B","D"],
+      "position": 26
     },
     {
       "cont": "Trạng thái nào KHÔNG chứa trạng thái khác?",
       "answers": [
         {
           "key": "A",
-          "text": "Top State"
+          "text": "Trạng thái trên cùng (Top State)"
         },
         {
           "key": "B",
-          "text": "Composite State"
+          "text": "Trạng thái hợp thành (Composite State)"
         },
         {
           "key": "C",
-          "text": "Simple State"
+          "text": "Trạng thái đơn (Simple State)"
         },
         {
           "key": "D",
-          "text": "Bottom State"
+          "text": "Trạng thái cuối cùng (Bottom State)"
         }
       ],
       "corrects": ["C"],
-      "position": 24
+      "position": 27
     },
     {
       "cont": "Phát biểu nào là đúng về việc nhóm các thành phần vào một gói?",
@@ -591,10 +660,10 @@
         }
       ],
       "corrects": ["A"],
-      "position": 25
+      "position": 28
     },
     {
-      "cont": "Có ba phân nhóm cơ chế kiến trúc bao gồm: (Chọn ba)",
+      "cont": "Có ba phân nhóm cơ chế kiến trúc bao gồm? (Chọn ba)",
       "answers": [
         {
           "key": "A",
@@ -614,7 +683,7 @@
         }
       ],
       "corrects": ["A", "C", "D"],
-      "position": 26
+      "position": 29
     },
     {
       "cont": "Trong biểu đồ tuần tự, những gì có thể được xác định bởi các tương tác giữa các thành phần ?",
@@ -637,33 +706,33 @@
         }
       ],
       "corrects": ["C"],
-      "position": 27
+      "position": 30
     },
     {
       "cont": "Khung nhìn nào tập trung vào hiện thực hóa vật lý của hệ thống ?",
       "answers": [
         {
           "key": "A",
-          "text": "Khung logic"
+          "text": "Khung nhìn logic"
         },
         {
           "key": "B",
-          "text": "Khung cài đặt"
+          "text": "Khung nhìn cài đặt"
         },
         {
           "key": "C",
-          "text": "Khung tiến trình"
+          "text": "Khung nhìn tiến trình"
         },
         {
           "key": "D",
-          "text": "Khung ca sử dụng"
+          "text": "Khung nhìn ca sử dụng"
         }
       ],
       "corrects": ["B"],
-      "position": 28
+      "position": 31
     },
     {
-      "cont": "Phát biểu nào là đúng về một active object?",
+      "cont": "Phát biểu nào là đúng về một đối tượng hoạt động (active object)?",
       "answers": [
         {
           "key": "A",
@@ -683,7 +752,7 @@
         }
       ],
       "corrects": ["A"],
-      "position": 29
+      "position": 32
     },
     {
       "cont": "Trong khâu Phân tích ca sử dụng, hành vi nào được phân bố cho các lớp điều khiển?",
@@ -706,7 +775,7 @@
         }
       ],
       "corrects": ["A"],
-      "position": 30
+      "position": 33
     },
     {
       "cont": "Ba nguồn để xác định Trừu tượng chính là gì? (Chọn ba)",
@@ -729,10 +798,10 @@
         }
       ],
       "corrects": ["A", "B", "D"],
-      "position": 31
+      "position": 34
     },
     {
-      "cont": "Đâu là một tên của object trong UML?",
+      "cont": "Đâu là một tên của đối tượng trong UML?",
       "answers": [
         {
           "key": "A",
@@ -752,7 +821,7 @@
         }
       ],
       "corrects": ["A"],
-      "position": 32
+      "position": 35
     },
     {
       "cont": "Trong Phân tích ca sử dụng, một thuộc tính nên được sử dụng thay vì một lớp khi thông tin ___",
@@ -775,7 +844,7 @@
         }
       ],
       "corrects": ["A"],
-      "position": 33
+      "position": 36
     },
     {
       "cont": "Khung nhìn 4+1 nào dưới đây tập trung vào khâu Mô tả Phân tán?",
@@ -798,7 +867,7 @@
         }
       ],
       "corrects": ["B"],
-      "position": 34
+      "position": 37
     },
     {
       "cont": "Chức năng của mô hình hóa trực quan là gì? (Chọn hai)",
@@ -821,7 +890,7 @@
         }
       ],
       "corrects": ["B", "D"],
-      "position": 35
+      "position": 38
     },
     {
       "cont": "Trong phân tích ca sử dụng, tại sao nên sử dụng các cơ chế Phân tích?",
@@ -844,10 +913,10 @@
         }
       ],
       "corrects": ["A"],
-      "position": 36
+      "position": 39
     },
     {
-      "cont": "Phát biểu nào là chính xác về các pattern?",
+      "cont": "Phát biểu nào là chính xác về các mẫu (patterns)?",
       "answers": [
         {
           "key": "A",
@@ -867,7 +936,7 @@
         }
       ],
       "corrects": ["B"],
-      "position": 37
+      "position": 40
     },
     {
       "cont": "Trong khâu Phân tích ca sử dụng, tại sao thường phải bổ sung các mô tả ca sử dụng?",
@@ -890,7 +959,7 @@
         }
       ],
       "corrects": ["A"],
-      "position": 38
+      "position": 41
     },
     {
       "cont": "Trong phân tích ca sử dụng, mục đích của bước hợp nhất (unify) các lớp phân tích là gì?",
@@ -913,34 +982,57 @@
         }
       ],
       "corrects": ["A"],
-      "position": 39
+      "position": 42
     },
     {
       "cont": "Tiến trình nào sau đây là phù hợp nhất cho UML? (Chọn ba)",
       "answers": [
         {
           "key": "A",
-          "text": "use-case driven"
+          "text": "ca sử dụng"
         },
         {
           "key": "B",
-          "text": "waterfall development-based"
+          "text": "sự phát triển dựa theo mô hình thác nước"
         },
         {
           "key": "C",
-          "text": "interative and incremental"
+          "text": "tính lặp và tính phát triển"
         },
         {
           "key": "D",
-          "text": "architecture-centric"
+          "text": "kiến trúc tập trung"
         },
         {
           "key": "E",
-          "text": "requirements-centric"
+          "text": "các yêu cầu tập trung"
         }
       ],
       "corrects": ["A", "C", "D"],
-      "position": 40
+      "position": 43
+    },
+    {
+      "cont": "Các lớp kiến ​​trúc thường được mô hình hóa trong UML bằng cách sử dụng một ___",
+      "answers": [
+        {
+          "key": "A",
+          "text": "gói kiểu <<Layer>> (package stereotyped <<Layer>>)"
+        },
+        {
+          "key": "B",
+          "text": "hệ thống con kiểu <<Layer>> (subsystem stereotyped <<Layer>>)"
+        },
+        {
+          "key": "C",
+          "text": "lớp hợp thành kiểu <<Layer>> (composite class stereotyped <<Layer>>)"
+        },
+        {
+          "key": "D",
+          "text": "biểu đồ lớp Layer (class diagram entitled Layer)"
+        }
+      ],
+      "corrects": ["A"],
+      "position": 44
     },
     {
       "cont": "Trong một sơ đồ trạng thái, một trạng thái có hai chuyển tiếp. Một trong những chuyển đổi là một chuyển tiếp nội bộ và một trong những chuyển tiếp là một chuyển tiếp bên ngoài. Những trạng thái nào có thể thực hiện một hành động thoát?",
@@ -951,7 +1043,7 @@
         },
         {
           "key": "B",
-          "text": "Chị trạng thái chuyển tiếp bên ngoài"
+          "text": "Chỉ trạng thái chuyển tiếp bên ngoài"
         },
         {
           "key": "C",
@@ -963,33 +1055,10 @@
         }
       ],
       "corrects": ["B"],
-      "position": 41
+      "position": 45
     },
     {
-      "cont": "Các lớp kiến ​​trúc thường được mô hình hóa trong UML bằng cách sử dụng một ___",
-      "answers": [
-        {
-          "key": "A",
-          "text": "package stereotyped <<Layer>>"
-        },
-        {
-          "key": "B",
-          "text": "subsystem stereotyped <<Layer>>"
-        },
-        {
-          "key": "C",
-          "text": "composite class stereotyped <<Layer>>"
-        },
-        {
-          "key": "D",
-          "text": "class diagram entitled Layer"
-        }
-      ],
-      "corrects": ["A"],
-      "position": 42
-    },
-    {
-      "cont": "Hai câu nào là đúng về use-case driven processes? (Chọn hai)",
+      "cont": "Hai câu nào là đúng về các quy trình điểu khiển ca sử dụng (use-case driven processes)? (Chọn hai)",
       "answers": [
         {
           "key": "A",
@@ -1009,7 +1078,30 @@
         }
       ],
       "corrects": ["A", "B"],
-      "position": 43
+      "position": 46
+    },
+    {
+      "cont": "Các chức năng chính của các lớp thực thể?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "lưu trữ và quản lý thông tin của hệ thống."
+        },
+        {
+          "key": "B",
+          "text": "hoạt động như một mẫu thay thế (surrogate) hoặc mẫu thay thế (proxy) cho các tác nhân trong hệ thống."
+        },
+        {
+          "key": "C",
+          "text": "gói lời gọi truy cập dữ liệu đến các hệ thống cơ sở dữ liệu liên quan."
+        },
+        {
+          "key": "D",
+          "text": "sắp xếp thông tin giữa các cấp trong hệ thống."
+        }
+      ],
+      "corrects": ["A"],
+      "position": 47
     },
     {
       "cont": "Cơ chế chung nào của UML cho phép nhóm các thành phần vào trong cùng một nhóm?",
@@ -1032,329 +1124,430 @@
         }
       ],
       "corrects": ["C"],
-      "position": 44
+      "position": 48
     },
     {
       "cont": "Trong phân tích ca sử dụng, cần bao nhiêu biểu đồ tương tác (tuần tự hoặc giao tiếp) cho mỗi ca sử dụng?",
       "answers": [
         {
           "key": "A",
-          "text": "Đủ cho mỗi biểu đồ để đảm bảo rằng tất cả các trách nhiệm của các lớp tham gia đều được nhận biết và đa phần các luồng sự kiện đã được mô tả"
+          "text": "Đủ cho mỗi biểu đồ để đảm bảo rằng tất cả các trách nhiệm của các lớp tham gia đều được nhận biết và đa phần các luồng sự kiện đã được mô tả."
         },
         {
           "key": "B",
-          "text": "một biểu đồ cho luồng sự kiện chính và một biểu đồ cho luồng sự kiện chuyển đổi trong ca sử dụng"
+          "text": "một biểu đồ cho luồng sự kiện chính và một biểu đồ cho luồng sự kiện chuyển đổi trong ca sử dụng."
         },
         {
           "key": "C",
-          "text": "một biểu đồ tuần tự và giao tiếp cho luồng sự kiện chính, mỗi loại một biểu đồ cho luồng sự kiện chuyển đổi"
+          "text": "một biểu đồ tuần tự và giao tiếp cho luồng sự kiện chính, mỗi loại một biểu đồ cho luồng sự kiện chuyển đổi."
         },
         {
           "key": "D",
-          "text": "mỗi loại một biểu đồ cho từng ca sử dụng"
+          "text": "mỗi loại một biểu đồ cho từng ca sử dụng."
         }
       ],
       "corrects": ["A"],
-      "position": 45
+      "position": 49
     },
     {
       "cont": "Trong phân tích ca sử dụng, các lớp biên có những chức năng gì?",
       "answers": [
         {
           "key": "A",
-          "text": "Ngăn cách giữa các tương tác từ ngoài với các cơ chế bên trong và ngược lại"
+          "text": "Ngăn cách giữa các tương tác từ ngoài với các cơ chế bên trong và ngược lại."
         },
         {
           "key": "B",
-          "text": "Đại diện cho các màn hình trong giao diện người dùng"
+          "text": "Đại diện cho các màn hình trong giao diện người dùng."
         },
         {
           "key": "C",
-          "text": "Định nghĩa các giao diện dịch vụ mà tầng Bussiness cung cấp"
+          "text": "Định nghĩa các giao diện dịch vụ mà tầng Nghiệp vụ cung cấp."
         },
         {
           "key": "D",
-          "text": "Định nghĩa các điểm truy nhập tới mô hình dữ liệu đối tượng của hệ thống"
+          "text": "Định nghĩa các điểm truy nhập tới mô hình dữ liệu đối tượng của hệ thống."
         }
       ],
       "corrects": ["A"],
-      "position": 46
+      "position": 50
     },
     {
-      "cont": "Đâu là ba mục đích của thiết kế ca sử dụng? (Chọn ba)",
+      "cont": "Phát biểu nào đúng về các phần tử trong hệ thống con và khả năng nhận diện công khai của chúng _____.",
       "answers": [
         {
           "key": "A",
-          "text": "để làm mịn các hiện thực hóa ca sử dụng về mặt tương tác"
+          "text": "Chỉ có các phần tử là API của hệ thống con được công khai nhìn thấy."
         },
         {
           "key": "B",
-          "text": "để đảm bảo tính đầy đủ của các lớp tham gia (View of Participating Classes) cho mỗi hiện thực hóa ca sử dụng"
+          "text": "Chỉ có các lớp cấu trúc của hệ thống con có thể được nhìn thấy công khai."
         },
         {
           "key": "C",
-          "text": "để làm mịn các yêu cầu về các thao tác của lớp thiết kế"
+          "text": "Không có phần tử nào bên trong hệ thống con có thể nhìn thấy công khai."
         },
         {
           "key": "D",
-          "text": "để làm mịn các yêu cầu về các thao tác (operations) của các hệ thống con thiết kế và các giao diện (interfaces)"
-        }
-      ],
-      "corrects": ["A", "C", "D"],
-      "position": 47
-    },
-    {
-      "cont": "Mục đích của thiết kế hệ thống con là gì?",
-      "answers": [
-        {
-          "key": "A",
-          "text": "hoàn thiện chi tiết của từng interface mà hệ thống con cài đặt"
-        },
-        {
-          "key": "B",
-          "text": "phân chia hệ thống thành các hệ thống con nhằm phân các hệ thống con đó cho các đội phát triển khác nhau"
-        },
-        {
-          "key": "C",
-          "text": "định nghĩa các hành vi được đặc tả trong các interfaces của hệ thống con theo sự cộng tác giữa các phần tử thiết kế bên trong hệ thống con đó"
-        },
-        {
-          "key": "D",
-          "text": "xác định xem mỗi hệ thống con sẽ được cài đặt tại tầng nào và cơ chế giao tiếp nào sẽ được sử dụng giữa chúng"
+          "text": "Chỉ có các lớp tham chiếu đến các lớp bên ngoài được nhìn thấy công khai."
         }
       ],
       "corrects": ["C"],
-      "position": 48
+      "position": 51
     },
     {
-      "cont": "Thành phần nào được dùng để mô tả hiện thực hóa ca sử dụng?",
+      "cont": "Hai kiểu phụ thuộc được sử dụng trong một hệ thống con? (chọn hai)",
       "answers": [
         {
           "key": "A",
-          "text": "các đặc tả ca sử dụng"
+          "text": "<<uses>> phụ thuộc vào một giao diện hệ thống con."
         },
         {
           "key": "B",
-          "text": "các biểu đồ giao tiếp"
+          "text": "Một <<import>> phụ thuộc vào một gói bao gồm các lớp đã được sử dụng."
         },
         {
           "key": "C",
-          "text": "các biểu đồ trạng thái"
+          "text": "Một <<manifest>> quan hệ với một nút trong mô hình triển khai."
         },
         {
           "key": "D",
-          "text": "các biểu đồ hoạt động"
+          "text": "Một <<realize>> quan hệ giữa một hoặc nhiều sự hợp tác."
         }
       ],
-      "corrects": ["B"],
-      "position": 49
+      "corrects": ["A", "B"],
+      "position": 52
+    },
+    {
+      "cont": "Nhiệm vụ vào được thực hiện trong quá trình sàng lọc hiện thực hóa ca sử dụng",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Xác định các lớp tham gia."
+        },
+        {
+          "key": "B",
+          "text": "Phân chia trách nhiệm giữa các lớp."
+        },
+        {
+          "key": "C",
+          "text": "Mô hình thông điệp giữa các lớp."
+        },
+        {
+          "key": "D",
+          "text": "Mô hình mối quan hệ giữa các lớp. (model associated class relationships)."
+        }
+      ],
+      "corrects": ["D"],
+      "position": 53
     },
     {
       "cont": "Phát biểu nào đúng về các hệ thống con trong thiết kế?",
       "answers": [
         {
           "key": "A",
-          "text": "Chúng đóng gói (encapsulate) một phần hành vi"
+          "text": "Chúng đóng gói (encapsulate) một phần hành vi."
         },
         {
           "key": "B",
-          "text": "Chúng đại diện một chức năng độc lập với các giao diện (interface) được định nghĩa rõ ràng"
+          "text": "Chúng đại diện một chức năng độc lập với các giao diện được định nghĩa rõ ràng."
         },
         {
           "key": "C",
-          "text": "Chúng mô hình hóa một cách cài đặt"
+          "text": "Chúng mô hình hóa một biến thể duy nhất."
         },
         {
           "key": "D",
-          "text": "Chúng chỉ có thể chứa các lớp thiết kế"
+          "text": "Chúng chỉ bao gồm các lớp thiết kế."
         }
       ],
       "corrects": ["B"],
-      "position": 50
-    },
-    {
-      "cont": "Một hệ thống con nên ___",
-      "answers": [
-        {
-          "key": "A",
-          "text": "phụ thuộc vào các giao diện của hệ thống khác"
-        },
-        {
-          "key": "B",
-          "text": "chỉ phụ thuộc vào chính nó"
-        },
-        {
-          "key": "C",
-          "text": "là một tập nhỏ các lớp được định nghĩa rõ ràng và cung cấp những APIs cho bên ngoài"
-        },
-        {
-          "key": "D",
-          "text": "chạy cho các dịch vụ của riêng nó"
-        }
-      ],
-      "corrects": ["A"],
-      "position": 51
-    },
-    {
-      "cont": "Câu nào là đúng về gói và hệ thống con?",
-      "answers": [
-        {
-          "key": "A",
-          "text": "Một gói không thể chứa một hệ thống con"
-        },
-        {
-          "key": "B",
-          "text": "Một gói cung cấp hành vi"
-        },
-        {
-          "key": "C",
-          "text": "Một hệ thống con cung cấp hành vi"
-        },
-        {
-          "key": "D",
-          "text": "Sử dụng gói khi cần đóng gói hành vi"
-        }
-      ],
-      "corrects": ["C"],
-      "position": 52
-    },
-    {
-      "cont": "Trong thiết kế hệ thống con có bao nhiêu biểu đồ tương tác (tuần tự hoặc giao tiếp) được tạo ra?",
-      "answers": [
-        {
-          "key": "A",
-          "text": "ít nhất một biểu đồ tương tác cho mỗi giao diện"
-        },
-        {
-          "key": "B",
-          "text": "một biểu đồ tương tác cho mỗi hiện thực hóa giao diện"
-        },
-        {
-          "key": "C",
-          "text": "ít nhất một biểu đồ tương tác cho mỗi sử dụng của giao diện ngoài"
-        },
-        {
-          "key": "D",
-          "text": "mỗi biểu đồ tương tác cho từng lớp"
-        }
-      ],
-      "corrects": ["A"],
-      "position": 53
-    },
-    {
-      "cont": "Hai phát biểu nào sau đây là chính xác về hiện thực hóa ca sử dụng? (Chọn hai)",
-      "answers": [
-        {
-          "key": "A",
-          "text": "liệt kê các bước khác nhau được thực hiện bởi ca sử dụng"
-        },
-        {
-          "key": "B",
-          "text": "cung cấp sự lần vết từ phân tích và thiết kế ngược trở lại đặc tả yêu cầu"
-        },
-        {
-          "key": "C",
-          "text": "được tạo bởi các nhà phân tích hệ thống"
-        },
-        {
-          "key": "D",
-          "text": "mô tả ca sử dụng thông qua sự cộng tác giữa các đối tượng"
-        }
-      ],
-      "corrects": ["B", "D"],
       "position": 54
     },
     {
-      "cont": "Trách nhiệm của các hệ thống con được xác định dựa vào đâu?",
+      "cont": "Cho các cấu hình sau: Pagkage A chứa lớp aClass ở tầng presentation. Pagkage B chứa lớp bClass , bInterface ở tầng business. Pagkage C chứa cClass ở tầng data. Cái nào dưới đây là một kinh nghiệm (practice) tồi?",
       "answers": [
         {
           "key": "A",
-          "text": "hành vi của các lớp trong hệ thống con"
+          "text": "aClass gọi một phương thức trong bClass."
         },
         {
           "key": "B",
-          "text": "các thao tác của giao diện hệ thống con"
+          "text": "aClass chứa một thuộc tính của cClass."
         },
         {
           "key": "C",
-          "text": "các hiện thực hóa ca sử dụng trong đó có các hệ thống con"
+          "text": "aClass nhận ra bInterface."
         },
         {
           "key": "D",
-          "text": "các thao tác của lớp được chứa trong hệ thống con"
+          "text": "bClass nhận ra bInterface."
         }
       ],
       "corrects": ["B"],
       "position": 55
     },
     {
-      "cont": "Thành phần nào của UML được dùng để mô tả kiến trúc vật lý của một hệ thống?",
+      "cont": "Tiến trình tài liệu nào diễn tả cơ chế thiết kế, bất kỳ ánh xạ nào giữa các cơ chế thiết kế và những chi tiết liên quan đến việc sử dụng?",
       "answers": [
         {
           "key": "A",
-          "text": "các lớp và mối quan hệ"
+          "text": "Tài liệu kiến trúc phần mềm."
         },
         {
           "key": "B",
-          "text": "các đối tượng và thông điệp trao đổi"
+          "text": "Các chỉ dẫn thiết kế."
         },
         {
           "key": "C",
-          "text": "các hệ thống con và sự phụ thuộc"
+          "text": "Tài liệu tổng quát hệ thống."
         },
         {
           "key": "D",
-          "text": "các nút và kết nối giữa chúng"
-        }
-      ],
-      "corrects": ["D"],
-      "position": 56
-    },
-    {
-      "cont": "Trong biểu đồ tuần tự, thành phần nào được dùng để đại diện cho một hệ thống con cụ thể?",
-      "answers": [
-        {
-          "key": "A",
-          "text": "một giao diện mà hệ thống con thực hiện"
-        },
-        {
-          "key": "B",
-          "text": "một sự ủy quyền của hệ thống con"
-        },
-        {
-          "key": "C",
-          "text": "một thành phần của hệ thống con"
-        },
-        {
-          "key": "D",
-          "text": "một lớp của hệ thống con"
+          "text": "Kế hoạch phát triển phần mềm."
         }
       ],
       "corrects": ["C"],
-      "position": 57
+      "position": 56
     },
     {
-      "cont": "Mục đích chính của biểu đồ ca sử dụng là?",
+      "cont": "Trong trạng thái của một máy trạng thái, một hành vi có thể được định nghĩa?",
       "answers": [
         {
           "key": "A",
-          "text": "tạo bảng từ vựng thống nhất giữa người dùng và người phân tích"
+          "text": "Trước khi đạt được trạng thái."
         },
         {
           "key": "B",
-          "text": "biểu diễn tương tác người dùng trong hệ thống"
+          "text": "Khi đạt được trạng thái."
         },
         {
           "key": "C",
-          "text": "bổ sung thông tin chi tiết như các thuộc tính hay các phương thức của lớp"
+          "text": "Khi rời khỏi trạng thái."
         },
         {
           "key": "D",
-          "text": "mô hình hóa các tương tác giữa hệ thống và môi trường"
+          "text": "Trong một trạng thái."
+        }
+      ],
+      "corrects": ["B", "C", "D"],
+      "position": 57
+    },
+    {
+      "cont": "Một cổng là gì?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Một tham số trình diễn một thông điệp qua các đường bao của một sự tương tác hoặc các phần của sự tương tác."
+        },
+        {
+          "key": "B",
+          "text": "Một định nghĩa các giao thức truy cập vào bên trong của hệ thống."
+        },
+        {
+          "key": "C",
+          "text": "Một điểm quyết định trong máy trạng thái có nhiều hơn hai tùy chọn thay thế."
+        },
+        {
+          "key": "D",
+          "text": "Một bộ các điểm kiểm soát (checkpoints) với mỗi thiết kế hệ thống con phải thỏa mãn trước khi nó của thể được chỉ định cài đặt."
+        }
+      ],
+      "corrects": ["A"],
+      "position": 58
+    },
+    {
+      "cont": "Khi Xác định Các phần tử thiết kế, một lớp phân tích đơn giản sẽ được ánh xạ đến một?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "lớp hoạt động"
+        },
+        {
+          "key": "B",
+          "text": "giao diện"
+        },
+        {
+          "key": "C",
+          "text": "lớp thiết kế"
+        },
+        {
+          "key": "D",
+          "text": "hệ thống con"
+        }
+      ],
+      "corrects": ["C"],
+      "position": 59
+    },
+    {
+      "cont": "Trong hoạt động nào của OOAD, cơ chế phân tán được xác định?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Xác định Các phần tử Thiết kế."
+        },
+        {
+          "key": "B",
+          "text": "Xác định Các cơ chế Thiết kế."
+        },
+        {
+          "key": "C",
+          "text": "Thiết kế Lớp."
+        },
+        {
+          "key": "D",
+          "text": "Phân tích Kiến trúc."
+        }
+      ],
+      "corrects": ["B"],
+      "position": 60
+    },
+    {
+      "cont": "Trong các nút trong sơ đồ dưới đây, nút E được gọi là gì?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "forks"
+        },
+        {
+          "key": "B",
+          "text": "trạng thái khởi động"
+        },
+        {
+          "key": "C",
+          "text": "các quyết định"
+        },
+        {
+          "key": "D",
+          "text": "các sự chuyển đổi"
+        },
+        {
+          "key": "E",
+          "text": "trạng thái cuối cùng"
+        },
+        {
+          "key": "F",
+          "text": "sự kiện"
+        },
+        {
+          "key": "G",
+          "text": "trạng thái"
+        },
+        {
+          "key": "H",
+          "text": "điều kiện phiên"
+        }
+      ],
+      "corrects": ["H"],
+      "position": 61
+    },
+    {
+      "cont": "Xác định Phần tử thiết kế là phần nào trong luồng công việc chi tiết nào?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Xác định một ứng viên Kiến trúc."
+        },
+        {
+          "key": "B",
+          "text": "Các thành phần thiết kế."
+        },
+        {
+          "key": "C",
+          "text": "Kiến trúc thực thi."
+        },
+        {
+          "key": "D",
+          "text": "Làm mịn Kiến trúc hệ thống."
         }
       ],
       "corrects": ["D"],
-      "position": 58
+      "position": 62
+    },
+    {
+      "cont": "Trong các nút trong sơ đồ dưới đây, nút H được gọi là gì?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "forks"
+        },
+        {
+          "key": "B",
+          "text": "trạng thái khởi động"
+        },
+        {
+          "key": "C",
+          "text": "các quyết định"
+        },
+        {
+          "key": "D",
+          "text": "các sự chuyển đổi"
+        },
+        {
+          "key": "E",
+          "text": "trạng thái cuối cùng"
+        },
+        {
+          "key": "F",
+          "text": "sự kiện"
+        },
+        {
+          "key": "G",
+          "text": "trạng thái"
+        },
+        {
+          "key": "H",
+          "text": "điều kiện phiên"
+        }
+      ],
+      "corrects": ["A"],
+      "position": 63
+    },
+    {
+      "cont": "Mối quan hệ giữa thao tác (operation) và phương thức (method)?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Chúng đồng nghĩa với nhau."
+        },
+        {
+          "key": "B",
+          "text": "Một thao tác (operation) mô tả cách một phương thức (method) được cài đặt."
+        },
+        {
+          "key": "C",
+          "text": "Một phương thức (method) mô tả cách một thao tác (operation) được cài đặt."
+        },
+        {
+          "key": "D",
+          "text": "Chúng không có mối liên hệ."
+        }
+      ],
+      "corrects": ["C"],
+      "position": 64
+    },
+    {
+      "cont": "Tại sao phải sử dụng các giao diện hệ thống con (subsystem interface) nhiều hơn sử dụng các đối tượng của hệ thống con (subsystem instances) trong sơ đồ tuần tự (sequence diagram)?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "để dễ dàng hơn khi mô hình hóa các hệ thống con trong Thiết kế Hệ thống con."
+        },
+        {
+          "key": "B",
+          "text": "để dễ dàng thay đổi hơn trong mô hình hóa ca sử dụng."
+        },
+        {
+          "key": "C",
+          "text": "để dễ dàng bảo trì các sơ đồ tuần tự khi các ký hiệu thông điệp thay đổi."
+        },
+        {
+          "key": "D",
+          "text": "để giảm số lượng các lớp cần thiết trong triển khai hệ thống con."
+        }
+      ],
+      "corrects": ["B"],
+      "position": 65
     },
     {
       "cont": "Chế tác nào là đầu vào cho khâu xác định phân tử thiết kế?",
@@ -1377,7 +1570,1303 @@
         }
       ],
       "corrects": ["D"],
-      "position": 59
+      "position": 66
+    },
+    {
+      "cont": "Một sự cân nhắc quan trọng khi phân bố các tiến trình cho các nút?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Giảm thiểu lưu lượng mạng."
+        },
+        {
+          "key": "B",
+          "text": "Giảm thiểu điện năng tiêu thụ."
+        },
+        {
+          "key": "C",
+          "text": "Sử dụng tất cả các nút sẵn có."
+        },
+        {
+          "key": "D",
+          "text": "Khoảng cách vật lý giữa các nút."
+        }
+      ],
+      "corrects": ["A"],
+      "position": 67
+    },
+    {
+      "cont": "Kiểu cơ chế nào là một kết nối trong một sơ đồ triển khai?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Sao lưu (backup)."
+        },
+        {
+          "key": "B",
+          "text": "Giao tiếp (communication)."
+        },
+        {
+          "key": "C",
+          "text": "Giao dịch (transaction)."
+        },
+        {
+          "key": "D",
+          "text": "Tính toán (computation)."
+        }
+      ],
+      "corrects": ["B"],
+      "position": 68
+    },
+    {
+      "cont": "Một cơ chế thiết kế?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Nắm bắt các khía cạnh chính của một giải pháp được thực thi độc lập."
+        },
+        {
+          "key": "B",
+          "text": "Chỉ rõ việc thực thi cơ chế và ràng buộc với công nghệ nhất định, ngôn ngữ thực thi hoặc nhà cung cấp."
+        },
+        {
+          "key": "C",
+          "text": "Giống một mẫu thiết kế."
+        },
+        {
+          "key": "D",
+          "text": "Giả định một số chi tiết của môi trường thực thi. nhưng không gắn liền với việc thực thi cụ thể."
+        }
+      ],
+      "corrects": ["D"],
+      "position": 69
+    },
+    {
+      "cont": "Khi xác định các giao diện trong suốt khâu Xác định Phần tử Thiết kế, phát biểu nào sau đây chính xác?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Các lớp không nên nhận ra một giao diện."
+        },
+        {
+          "key": "B",
+          "text": "Mỗi hệ thống con chỉ nên nhận ra một giao diện."
+        },
+        {
+          "key": "C",
+          "text": "Các giao diện chỉ nên được xác định trước khi các hệ thống con được tạo ra."
+        },
+        {
+          "key": "D",
+          "text": "Các giao diện chỉ nên được đóng gói riêng biệt với các yếu tố nhận ra chúng."
+        }
+      ],
+      "corrects": ["D"],
+      "position": 70
+    },
+    {
+      "cont": "Các hệ thống con bổ sung có thể được phát hiện trong quá trình Thiết kế Ca sử dụng bằng cách ghi chú?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Các luồng phụ thông thường giữa các đối tượng trong vài sơ đồ tuần tự."
+        },
+        {
+          "key": "B",
+          "text": "Các đối tượng tương tự trên một vài sơ đồ tuần tự."
+        },
+        {
+          "key": "C",
+          "text": "Một chuỗi các trạng thái chuyển đổi cho nhiều lớp liên quan đến các hiện thực hóa use-case."
+        },
+        {
+          "key": "D",
+          "text": "Các lớp thiết kế tương tự liên quan đến nhiều hơn một hiện thực hóa use-case."
+        }
+      ],
+      "corrects": ["A"],
+      "position": 71
+    },
+    {
+      "cont": "Hoạt động nào được thực hiện trong suốt giai đoạn Thiết kế Ca sử dụng?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Chuyển từ các lớp phân tích thành các lớp thiết kế và thiết kế các hệ thống con."
+        },
+        {
+          "key": "B",
+          "text": "Mô tả các hành vi liên quan đến tính bền vững. (persistence-related  behavior)"
+        },
+        {
+          "key": "C",
+          "text": "Mô tả các sự tương tác giữa các đối tượng thực thi các thao tác giao diện."
+        },
+        {
+          "key": "D",
+          "text": "Đơn giản hóa sơ đồ tuần tự sử dụng các lớp thiết kế."
+        }
+      ],
+      "corrects": ["B"],
+      "position": 72
+    },
+    {
+      "cont": "Trong biểu đồ tuần tự, thành phần nào được dùng để đại diện cho một hệ thống con cụ thể?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "một giao diện mà hệ thống con thực hiện"
+        },
+        {
+          "key": "B",
+          "text": "một sự ủy quyền của hệ thống con"
+        },
+        {
+          "key": "C",
+          "text": "một thành phần của hệ thống con"
+        },
+        {
+          "key": "D",
+          "text": "một lớp của hệ thống con"
+        }
+      ],
+      "corrects": ["C"],
+      "position": 73
+    },
+    {
+      "cont": "Thành phần nào của UML được dùng để mô tả kiến trúc vật lý của một hệ thống?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "các lớp và mối quan hệ"
+        },
+        {
+          "key": "B",
+          "text": "các đối tượng và thông điệp trao đổi"
+        },
+        {
+          "key": "C",
+          "text": "các hệ thống con và sự phụ thuộc"
+        },
+        {
+          "key": "D",
+          "text": "các nút và kết nối giữa chúng"
+        }
+      ],
+      "corrects": ["D"],
+      "position": 74
+    },
+    {
+      "cont": "Chế tác nào được sử dụng để hiện thực hóa ca sử dụng?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Các mô tả ca sử dụng được thể hiện bằng văn bản."
+        },
+        {
+          "key": "B",
+          "text": "Các sơ đồ giao tiếp."
+        },
+        {
+          "key": "C",
+          "text": "Các biểu đồ trạng thái."
+        },
+        {
+          "key": "D",
+          "text": "Các biểu đồ hoạt động."
+        }
+      ],
+      "corrects": ["B"],
+      "position": 75
+    },
+    {
+      "cont": "Trách nhiệm của các hệ thống con được xác định dựa vào đâu?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "hành vi của các lớp trong hệ thống con"
+        },
+        {
+          "key": "B",
+          "text": "các thao tác của giao diện hệ thống con"
+        },
+        {
+          "key": "C",
+          "text": "các hiện thực hóa ca sử dụng trong đó có các hệ thống con"
+        },
+        {
+          "key": "D",
+          "text": "các thao tác của lớp được chứa trong hệ thống con"
+        }
+      ],
+      "corrects": ["B"],
+      "position": 76
+    },
+    {
+      "cont": "Cái nào sau đây là một cơ chế thiết kế?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Cơ chế bền vững (Persistency)."
+        },
+        {
+          "key": "B",
+          "text": "Lưu trữ đối tượng trong cơ sở dữ liệu hướng đối tượng (ObjectStore Object-oriented Database)."
+        },
+        {
+          "key": "C",
+          "text": "Cơ chế phân tán (Distribution)"
+        },
+        {
+          "key": "D",
+          "text": "Remote Method Invocation"
+        }
+      ],
+      "corrects": ["D"],
+      "position": 77
+    },
+    {
+      "cont": "Để bắt đầu Xác định cơ chế thiết kế, cần phải phân loại cơ chế phân tích. Ba bước của quá trình phân loại cơ chế phân tích là? (Chọn 3)",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Xác định tài liệu đặc tính của mỗi cơ chế phân tích."
+        },
+        {
+          "key": "B",
+          "text": "Xác định các clients của cơ chế phân tích."
+        },
+        {
+          "key": "C",
+          "text": "Chỉ định một nhà cung cấp triển khai tới mỗi cơ chế phân tích."
+        },
+        {
+          "key": "D",
+          "text": "Nhóm các clients theo đặc tính sử dụng của chúng."
+        }
+      ],
+      "corrects": ["A","B","D"],
+      "position": 78
+    },
+    {
+      "cont": "Trong thiết kế hệ thống con, điều gì xảy ra ở giai đoạn này, các trách nhiệm của hệ thống phân tán?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Các trách nhiệm của hệ thống phân tán được chỉ định cho các phần tử thiết kế bên trong nó."
+        },
+        {
+          "key": "B",
+          "text": "Mỗi hệ thống con được kiểm tra để đảm bảo rằng chúng có một bộ trách nhiệm nhất quán và bộ trách nhiệm không nhất quán được chỉ định lại đối với các hệ thống con khác."
+        },
+        {
+          "key": "C",
+          "text": "Các thư viện và các API bên ngoài được xác định để nhận biết các hành vi của hệ thống con."
+        },
+        {
+          "key": "D",
+          "text": "Các cơ chế phân tán được trình bày chi tiết cho việc hiển thị các giao diện hệ thống con."
+        }
+      ],
+      "corrects": ["A"],
+      "position": 79
+    },
+    {
+      "cont": "Thực thể nào được xác định rõ ranh giới và định danh mà đóng gói trạng thái và hành vi?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "lớp"
+        },
+        {
+          "key": "B",
+          "text": "đối tượng"
+        },
+        {
+          "key": "C",
+          "text": "thành phần"
+        },
+        {
+          "key": "D",
+          "text": "gói"
+        }
+      ],
+      "corrects": ["B"],
+      "position": 80
+    },
+    {
+      "cont": "Xác định mục đích của hoạt động Xác định Cơ chế Thiết kế?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Làm mịn các cơ chế phân tích và xác định chính xác các cài đặt của cơ chế."
+        },
+        {
+          "key": "B",
+          "text": "Cung cấp một bộ khái niệm các dịch vụ được sử dụng bởi các đối tượng phân tích."
+        },
+        {
+          "key": "C",
+          "text": "Làm các cơ chế phân tích thành các cơ chế thiết kế dựa trên các ràng buộc của môi trường thực thi."
+        },
+        {
+          "key": "D",
+          "text": "Để xác định vị trí thiết kế trong kiến trúc vì vậy nỗ lực của kiến trúc sư vẫn tập trung và ít có khả năng trở nên chệch hướng."
+        }
+      ],
+      "corrects": ["C"],
+      "position": 81
+    },
+    {
+      "cont": "Trong một sự phụ thuộc, thông qua sự tham chiếu nào sau đây mà lớp khách có khả năng nhận biết được các nhà cung cấp?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "tham chiếu địa phương"
+        },
+        {
+          "key": "B",
+          "text": "tham chiếu tham số"
+        },
+        {
+          "key": "C",
+          "text": "tham chiếu toàn cục"
+        },
+        {
+          "key": "D",
+          "text": "tham chiếu khu vực"
+        }
+      ],
+      "corrects": ["A" ,"B", "C"],
+      "position": 82
+    },
+    {
+      "cont": "Hoạt động Phân tích và Thiết kế nào được thực hiện khi các hệ thống con được ánh xạ đến các lớp phân tích?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Phân tích kiến trúc"
+        },
+        {
+          "key": "B",
+          "text": "Xác định các phần tử thiết kế"
+        },
+        {
+          "key": "C",
+          "text": "Xác định các hệ thống con"
+        },
+        {
+          "key": "D",
+          "text": "Kết hợp các phần tử thiết kế đang tồn tại"
+        }
+      ],
+      "corrects": ["B"],
+      "position": 83
+    },
+    {
+      "cont": "Phần tử thiết kế nào được sử dụng để trình bày một đối tượng cùng thực hiện đồng thời?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "lớp hoạt động"
+        },
+        {
+          "key": "B",
+          "text": "đóng gói"
+        },
+        {
+          "key": "C",
+          "text": "lớp thiết kế"
+        },
+        {
+          "key": "D",
+          "text": "sự kiện"
+        }
+      ],
+      "corrects": ["A"],
+      "position": 84
+    },
+    {
+      "cont": "Hoạt động mô tả Sự phân tán là nơi các tiến trình được xác định trong mô tả  hoạt động kiến trúc thời gian thực được phân bổ cho?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "các nút vật lý"
+        },
+        {
+          "key": "B",
+          "text": "các thành phần"
+        },
+        {
+          "key": "C",
+          "text": "các lớp"
+        },
+        {
+          "key": "D",
+          "text": "các hoạt động"
+        }
+      ],
+      "corrects": ["A"],
+      "position": 85
+    },
+    {
+      "cont": "Trong thiết kế hệ thống con có bao nhiêu biểu đồ tương tác (tuần tự hoặc giao tiếp) được tạo ra?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "ít nhất một biểu đồ tương tác cho mỗi giao diện"
+        },
+        {
+          "key": "B",
+          "text": "một biểu đồ tương tác cho mỗi hiện thực hóa giao diện"
+        },
+        {
+          "key": "C",
+          "text": "ít nhất một biểu đồ tương tác cho mỗi sử dụng của giao diện ngoài"
+        },
+        {
+          "key": "D",
+          "text": "mỗi biểu đồ tương tác cho từng lớp"
+        }
+      ],
+      "corrects": ["A"],
+      "position": 86
+    },
+    {
+      "cont": "Một đồ thị có hướng của các nút được kết nối bởi sự chuyển đổi là một _____ biểu đồ",
+      "answers": [
+        {
+          "key": "A",
+          "text": "giao tiếp"
+        },
+        {
+          "key": "B",
+          "text": "tuần tự"
+        },
+        {
+          "key": "C",
+          "text": "thành phần"
+        },
+        {
+          "key": "D",
+          "text": "máy trạng thái"
+        }
+      ],
+      "corrects": ["D"],
+      "position": 87
+    },
+    {
+      "cont": "Trong các nút trong sơ đồ dưới đây, nút F được gọi là gì?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "forks"
+        },
+        {
+          "key": "B",
+          "text": "trạng thái khởi động"
+        },
+        {
+          "key": "C",
+          "text": "các quyết định"
+        },
+        {
+          "key": "D",
+          "text": "các sự chuyển đổi"
+        },
+        {
+          "key": "E",
+          "text": "trạng thái cuối cùng"
+        },
+        {
+          "key": "F",
+          "text": "sự kiện"
+        },
+        {
+          "key": "G",
+          "text": "trạng thái"
+        },
+        {
+          "key": "H",
+          "text": "điều kiện phiên"
+        }
+      ],
+      "corrects": ["F"],
+      "position": 88
+    },
+    {
+      "cont": "Thiết kế Ca sử dụng là một phần của luồng công việc chi tiết nào?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Thiết kế các ca sử dụng"
+        },
+        {
+          "key": "B",
+          "text": "Phân tích các hành vi"
+        },
+        {
+          "key": "C",
+          "text": "Các thành phần thiết kế"
+        },
+        {
+          "key": "D",
+          "text": "Thiết kế các lớp và hệ thống con"
+        }
+      ],
+      "corrects": ["C"],
+      "position": 89
+    },
+    {
+      "cont": "Khi nào một lớp phân tích được ánh xạ trực tiếp đến một lớp thiết kế?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "khi lớp phân tích sử dụng kiểu mở rộng <entity>."
+        },
+        {
+          "key": "B",
+          "text": "khi lớp phân tích biểu diễn một sự trừu tượng logic đơn nhất."
+        },
+        {
+          "key": "C",
+          "text": "khi một công cụ được mô hình hóa hỗ trợ sự biến đổi của các mô hình phân tích sang thiết kế."
+        },
+        {
+          "key": "D",
+          "text": "khi một người phân tích có kỹ năng thiết kế tốt."
+        }
+      ],
+      "corrects": ["B"],
+      "position": 90
+    },
+    {
+      "cont": "Mục đích chính của thiết kế các hệ thống con là gì?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Cung cấp quản lý mô hình và tổ chức mô hình."
+        },
+        {
+          "key": "B",
+          "text": "Đóng gói hành vi."
+        },
+        {
+          "key": "C",
+          "text": "Gói các lớp thiết kế tương tự nhau."
+        },
+        {
+          "key": "D",
+          "text": "Đại diện cho các hệ thống bên ngoài."
+        }
+      ],
+      "corrects": ["B"],
+      "position": 91
+    },
+    {
+      "cont": "Trong các nút trong sơ đồ dưới đây, nút C1 và C2 được gọi là gì?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "forks"
+        },
+        {
+          "key": "B",
+          "text": "trạng thái khởi động"
+        },
+        {
+          "key": "C",
+          "text": "các quyết định"
+        },
+        {
+          "key": "D",
+          "text": "các sự chuyển đổi"
+        },
+        {
+          "key": "E",
+          "text": "trạng thái cuối cùng"
+        },
+        {
+          "key": "F",
+          "text": "sự kiện"
+        },
+        {
+          "key": "G",
+          "text": "trạng thái"
+        },
+        {
+          "key": "H",
+          "text": "điều kiện phiên"
+        }
+      ],
+      "corrects": ["G"],
+      "position": 92
+    },
+    {
+      "cont": "Định nghĩa cấu hình mạng là bước ______ của hoạt động Mô tả sự phân tán?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "cuối cùng"
+        },
+        {
+          "key": "B",
+          "text": "đầu tiên"
+        },
+        {
+          "key": "C",
+          "text": "thứ hai"
+        },
+        {
+          "key": "D",
+          "text": "thứ năm"
+        }
+      ],
+      "corrects": ["B"],
+      "position": 93
+    },
+    {
+      "cont": "Trong các nút trong sơ đồ dưới đây, nút B được gọi là gì?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "forks"
+        },
+        {
+          "key": "B",
+          "text": "trạng thái khởi động"
+        },
+        {
+          "key": "C",
+          "text": "các quyết định"
+        },
+        {
+          "key": "D",
+          "text": "các sự chuyển đổi"
+        },
+        {
+          "key": "E",
+          "text": "trạng thái cuối cùng"
+        },
+        {
+          "key": "F",
+          "text": "sự kiện"
+        },
+        {
+          "key": "G",
+          "text": "trạng thái"
+        },
+        {
+          "key": "H",
+          "text": "điều kiện phiên"
+        }
+      ],
+      "corrects": ["B"],
+      "position": 94
+    },
+    {
+      "cont": "Câu nào là đúng về gói và hệ thống con?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Một gói không thể chứa một hệ thống con"
+        },
+        {
+          "key": "B",
+          "text": "Một gói cung cấp hành vi"
+        },
+        {
+          "key": "C",
+          "text": "Một hệ thống con cung cấp hành vi"
+        },
+        {
+          "key": "D",
+          "text": "Sử dụng gói khi cần đóng gói hành vi"
+        }
+      ],
+      "corrects": ["C"],
+      "position": 95
+    },
+    {
+      "cont": "Có bao nhiêu nút vật lý được xác định để diễn tả hoạt động Mô tả sự phân tán?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Không có nút nào"
+        },
+        {
+          "key": "B",
+          "text": "Chỉ có một nút duy nhất"
+        },
+        {
+          "key": "C",
+          "text": "Không có nút nào hoặc có một nút"
+        },
+        {
+          "key": "D",
+          "text": "Có nhiều hơn một nút"
+        }
+      ],
+      "corrects": ["D"],
+      "position": 96
+    },
+    {
+      "cont": "Tài liệu bổ sung biểu đồ tuần tự dưới dạng ghi chú và văn bản được sử dụng cho ______. (Chọn 3)",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Mô tả thời gian yêu cầu giữa các thông điệp."
+        },
+        {
+          "key": "B",
+          "text": "Cung cấp các chi tiết về hành vi có điều kiện."
+        },
+        {
+          "key": "C",
+          "text": "Xác định các thuộc tính cho các đối tượng xuất hiện trong biểu đồ."
+        },
+        {
+          "key": "D",
+          "text": "Tương ứng với các điểm mở rộng trong ca sử dụng với các vị trí cụ thể trong biểu đồ tuần tự."
+        }
+      ],
+      "corrects": ["A","B","D"],
+      "position": 97
+    },
+    {
+      "cont": "Cái nào được sử dụng để mô tả tiến trình trong việc áp dụng một cơ chế phân tán trong suốt quá trình cài đặt?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "biểu đồ hoạt động"
+        },
+        {
+          "key": "B",
+          "text": "biểu đồ flowchart"
+        },
+        {
+          "key": "C",
+          "text": "mẫu UML và các bước ghi chép"
+        },
+        {
+          "key": "D",
+          "text": "biểu đồ ca sử dụng"
+        }
+      ],
+      "corrects": ["C"],
+      "position": 98
+    },
+    {
+      "cont": "Trong các nút trong sơ đồ dưới đây, với những thông tin được cung cấp trong biểu đồ, phát biểu nào sau đây đúng?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Lion và Tiger truyền thông với nhau."
+        },
+        {
+          "key": "B",
+          "text": "Lion và Tiger truyền thông với Animal."
+        },
+        {
+          "key": "C",
+          "text": "Animal không có đối tượng trực tiếp nào."
+        },
+        {
+          "key": "D",
+          "text": "Các đối tượng của Animal truyền thông với nhau khác với các đối tượng của Lion và Tiger."
+        }
+      ],
+      "corrects": ["C"],
+      "position": 99
+    },
+    {
+      "cont": "Thuộc tính được gạch chân chỉ ra điều gì?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Thuộc tính chỉ đọc."
+        },
+        {
+          "key": "B",
+          "text": "Thuộc tính có nguồn gốc từ hệ thống khác."
+        },
+        {
+          "key": "C",
+          "text": "Thuộc tính duy nhất xác định đối tượng."
+        },
+        {
+          "key": "D",
+          "text": "Thuộc tính được định nghĩa ở cấp phân loại thay vì cấp cá thể."
+        }
+      ],
+      "corrects": ["D"],
+      "position": 100
+    },
+    {
+      "cont": "Trong biểu đồ dưới đây, thuộc tính CourseOffering.numberOfStudents là một ví dụ của _____.",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Một thiết kế tồi."
+        },
+        {
+          "key": "B",
+          "text": "Một thuộc tính tĩnh."
+        },
+        {
+          "key": "C",
+          "text": "Một thuộc tính có nguồn gốc."
+        },
+        {
+          "key": "D",
+          "text": "Tên không được đặt theo đúng tiêu chuẩn."
+        }
+      ],
+      "corrects": ["C"],
+      "position": 101
+    },
+    {
+      "cont": "Trong các nút trong sơ đồ dưới đây, nút A được gọi là gì?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "forks"
+        },
+        {
+          "key": "B",
+          "text": "trạng thái khởi động"
+        },
+        {
+          "key": "C",
+          "text": "các quyết định"
+        },
+        {
+          "key": "D",
+          "text": "các sự chuyển đổi"
+        },
+        {
+          "key": "E",
+          "text": "trạng thái cuối cùng"
+        },
+        {
+          "key": "F",
+          "text": "sự kiện"
+        },
+        {
+          "key": "G",
+          "text": "trạng thái"
+        },
+        {
+          "key": "H",
+          "text": "điều kiện phiên"
+        }
+      ],
+      "corrects": ["E"],
+      "position": 102
+    },
+    {
+      "cont": "Với cơ chế bền vững, hai chức năng của yêu cầu giao dịch là gì? (Chọn hai)",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Đảm bảo rằng các phương thức được thực hiện hoặc tất cả hoặc không cái nào."
+        },
+        {
+          "key": "B",
+          "text": "Cho phép nhà thiết kế lựa chọn các thao tác sẽ được thực thi khi mà thiếu tài nguyên hệ thống."
+        },
+        {
+          "key": "C",
+          "text": "Đảm bảo rằng  tập các đối tượng chuyển từ trạng thái nhất quán sang trạng thái khác."
+        },
+        {
+          "key": "D",
+          "text": "Đơn giản hóa thiết kế, do đó cơ chế bền vững không cần phải rõ ràng cân nhắc trong giai đoạn thiết kế ca sử dụng."
+        },
+        {
+          "key": "E",
+          "text": "Đơn giản hóa công việc thiết kế bằng cách cung cấp sự tiếp cận được chuẩn hóa cho sự trình diễn các đối tượng bền vững trong UML."
+        }
+      ],
+      "corrects": ["A","C"],
+      "position": 103
+    },
+    {
+      "cont": "Ba mục đích thiết kế ca sử dụng là gì? (Chọn ba)",
+      "answers": [
+        {
+          "key": "A",
+          "text": "để làm mịn các hiện thực hóa ca sử dụng trong giới hạn sự tương tác."
+        },
+        {
+          "key": "B",
+          "text": "để đảm bảo tính đầy đủ với khung nhìn của các biểu đồ lớp tham gia cho mỗi sự hiện thực hóa ca sử dụng."
+        },
+        {
+          "key": "C",
+          "text": "để làm mịn các yêu cầu trong các thao tác của các lớp thiết kế."
+        },
+        {
+          "key": "D",
+          "text": "để làm mịn các yêu cầu trong các thao tác của các lớp thiết kế."
+        }
+      ],
+      "corrects": ["A","C","D"],
+      "position": 104
+    },
+    {
+      "cont": "Chế tác đầu ra của Thiết kế ca sử dụng là cái nào dưới đây?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Các lớp phân tích"
+        },
+        {
+          "key": "B",
+          "text": "Các lớp thiết kế"
+        },
+        {
+          "key": "C",
+          "text": "Các giao diện"
+        },
+        {
+          "key": "D",
+          "text": "Mô hình thiết kế"
+        }
+      ],
+      "corrects": ["D"],
+      "position": 105
+    },
+    {
+      "cont": "Cái nào sau đây là một ví dụ về môi trường thực thi?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Gigabit network switch"
+        },
+        {
+          "key": "B",
+          "text": "virtual private network"
+        },
+        {
+          "key": "C",
+          "text": "J2EE application server"
+        },
+        {
+          "key": "D",
+          "text": "handheld computer"
+        }
+      ],
+      "corrects": ["C"],
+      "position": 106
+    },
+    {
+      "cont": "Mục đích của việc Các lớp hợp nhất và Các hệ thống con là để đảm bảo ______.",
+      "answers": [
+        {
+          "key": "A",
+          "text": "mỗi hệ thống con có một thành phần hệ thống con tương ứng."
+        },
+        {
+          "key": "B",
+          "text": "tất cả các lớp được chỉ định nhiều nhất cho một hệ thống con."
+        },
+        {
+          "key": "C",
+          "text": "trách nhiệm của các phần tử thiết kế không được trùng nhau."
+        },
+        {
+          "key": "D",
+          "text": "mỗi giao diện xác định có một API gắn kết và mạch lạc."
+        }
+      ],
+      "corrects": ["C"],
+      "position": 107
+    },
+    {
+      "cont": "Cái nào dưới đây là một hướng dẫn cho các thao tác đóng gói hệ thống trong biểu đồ tuần tự ______.",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Thông điệp đến các hệ thống con nên tương ứng với các thao tác trong giao diện của hệ thống con."
+        },
+        {
+          "key": "B",
+          "text": "Thông điệp từ các hệ thống con nên tương ứng với các thao tác của thành phần hệ thống con."
+        },
+        {
+          "key": "C",
+          "text": "Trong quá trình Thiết kế ca sử dụng, cần tạo biểu đồ tuần tự thứ cấp để mô hình hóa các thao tác trong hệ thống con."
+        },
+        {
+          "key": "D",
+          "text": "Một hệ thống con phải được trình bày trên biểu đồ tuần tự sử dụng thành phần của chúng."
+        }
+      ],
+      "corrects": ["A"],
+      "position": 108
+    },
+    {
+      "cont": "Cái nào sau đây là một ví dụ của đường kết nối?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "SCSI Hard Disk"
+        },
+        {
+          "key": "B",
+          "text": "Uninterruptible Power Supply"
+        },
+        {
+          "key": "C",
+          "text": "HTTP protocol*"
+        },
+        {
+          "key": "D",
+          "text": "JDBC class"
+        }
+      ],
+      "corrects": ["C"],
+      "position": 109
+    },
+    {
+      "cont": "Trong các nút trong sơ đồ dưới đây, nút G được gọi là gì?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "forks"
+        },
+        {
+          "key": "B",
+          "text": "trạng thái khởi động"
+        },
+        {
+          "key": "C",
+          "text": "các quyết định"
+        },
+        {
+          "key": "D",
+          "text": "các sự chuyển đổi"
+        },
+        {
+          "key": "E",
+          "text": "trạng thái cuối cùng"
+        },
+        {
+          "key": "F",
+          "text": "sự kiện"
+        },
+        {
+          "key": "G",
+          "text": "trạng thái"
+        },
+        {
+          "key": "H",
+          "text": "điều kiện phiên"
+        }
+      ],
+      "corrects": ["C"],
+      "position": 110
+    },
+    {
+      "cont": "Cái nào sau đây là một thiết bị?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "máy chủ cơ sở dữ liệu"
+        },
+        {
+          "key": "B",
+          "text": "máy chủ web"
+        },
+        {
+          "key": "C",
+          "text": "mạng ảo riêng tư"
+        },
+        {
+          "key": "D",
+          "text": "máy tính cầm tay"
+        }
+      ],
+      "corrects": ["D"],
+      "position": 111
+    },
+    {
+      "cont": "Khung nhìn 4 + 1 nào sau đây tập trung vào hoạt động Mô tả sự phân tán?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "Khung nhìn logic"
+        },
+        {
+          "key": "B",
+          "text": "Khung nhìn triển khai"
+        },
+        {
+          "key": "C",
+          "text": "Khung nhìn ca sử dụng"
+        },
+        {
+          "key": "D",
+          "text": "Khung nhìn cài đặt"
+        }
+      ],
+      "corrects": ["B"],
+      "position": 112
+    },
+    {
+      "cont": "Mục đích của thiết kế hệ thống con là gì?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "hoàn thiện chi tiết của từng interface mà hệ thống con cài đặt"
+        },
+        {
+          "key": "B",
+          "text": "phân chia hệ thống thành các hệ thống con nhằm phân các hệ thống con đó cho các đội phát triển khác nhau"
+        },
+        {
+          "key": "C",
+          "text": "định nghĩa các hành vi được đặc tả trong các interfaces của hệ thống con theo sự cộng tác giữa các phần tử thiết kế bên trong hệ thống con đó"
+        },
+        {
+          "key": "D",
+          "text": "xác định xem mỗi hệ thống con sẽ được cài đặt tại tầng nào và cơ chế giao tiếp nào sẽ được sử dụng giữa chúng"
+        }
+      ],
+      "corrects": ["C"],
+      "position": 113
+    },
+    {
+      "cont": "Ba hoạt động nào sau đây là phần tử của Thiết kế các lớp? (Chọn ba)",
+      "answers": [
+        {
+          "key": "A",
+          "text": "xác định các lớp và mối quan hệ giữa chúng, hỗ trợ quá trình cài đặt kiến trúc."
+        },
+        {
+          "key": "B",
+          "text": "xác định và phân tích các sự chuyển đổi trạng thái trong các đối tượng của các lớp kiểm soát trạng thái."
+        },
+        {
+          "key": "C",
+          "text": "xác định các lớp dựa trên các mô hình đối tượng từ miền giải pháp của hệ thống."
+        },
+        {
+          "key": "D",
+          "text": "làm mịn các mối quan hệ, các thao tác và các thuộc tính."
+        }
+      ],
+      "corrects": ["A", "B", "D"],
+      "position": 114
+    },
+    {
+      "cont": "Trong các nút trong sơ đồ dưới đây, nút D được gọi là gì?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "forks"
+        },
+        {
+          "key": "B",
+          "text": "trạng thái khởi động"
+        },
+        {
+          "key": "C",
+          "text": "các quyết định"
+        },
+        {
+          "key": "D",
+          "text": "các sự chuyển đổi"
+        },
+        {
+          "key": "E",
+          "text": "trạng thái cuối cùng"
+        },
+        {
+          "key": "F",
+          "text": "sự kiện"
+        },
+        {
+          "key": "G",
+          "text": "trạng thái"
+        },
+        {
+          "key": "H",
+          "text": "điều kiện phiên"
+        }
+      ],
+      "corrects": ["D"],
+      "position": 115
+    },
+    {
+      "cont": "Các chế tác là các thực thể _____.",
+      "answers": [
+        {
+          "key": "A",
+          "text": "máy chủ chạy phần mềm"
+        },
+        {
+          "key": "B",
+          "text": "được triển khai vào những nút vật lý"
+        },
+        {
+          "key": "C",
+          "text": "là kết quả của mô hình chuyển đổi"
+        },
+        {
+          "key": "D",
+          "text": "là lưu trữ trên một cache browser"
+        }
+      ],
+      "corrects": ["B"],
+      "position": 116
+    },
+    {
+      "cont": "Mục đích chính của biểu đồ ca sử dụng là?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "tạo bảng từ vựng thống nhất giữa người dùng và người phân tích"
+        },
+        {
+          "key": "B",
+          "text": "biểu diễn tương tác người dùng trong hệ thống"
+        },
+        {
+          "key": "C",
+          "text": "bổ sung thông tin chi tiết như các thuộc tính hay các phương thức của lớp"
+        },
+        {
+          "key": "D",
+          "text": "mô hình hóa các tương tác giữa hệ thống và môi trường"
+        }
+      ],
+      "corrects": ["D"],
+      "position": 117
+    },
+    {
+      "cont": "Thành phần nào được dùng để mô tả hiện thực hóa ca sử dụng?",
+      "answers": [
+        {
+          "key": "A",
+          "text": "các đặc tả ca sử dụng"
+        },
+        {
+          "key": "B",
+          "text": "các biểu đồ giao tiếp"
+        },
+        {
+          "key": "C",
+          "text": "các biểu đồ trạng thái"
+        },
+        {
+          "key": "D",
+          "text": "các biểu đồ hoạt động"
+        }
+      ],
+      "corrects": ["B"],
+      "position": 118
     }
   ]
 }
