@@ -21,7 +21,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 1
+      "position": 1,
+      "image": ""
     },
     {
       "cont": "Đâu là 3 điểm khác biệt giữa lớp cấu trúc và lớp truyền thống (Chọn 3)",
@@ -48,7 +49,8 @@
         "B",
         "C"
       ],
-      "position": 2
+      "position": 2,
+      "image": ""
     },
     {
       "cont": "Đâu là đặc điểm của lớp cấu trúc?",
@@ -71,7 +73,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 3
+      "position": 3,
+      "image": ""
     },
     {
       "cont": "Phát biểu nào là đúng về một quá trình phát triển lặp",
@@ -94,7 +97,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 4
+      "position": 4,
+      "image": ""
     },
     {
       "cont": "Hai câu nào đúng về giao diện?",
@@ -120,7 +124,8 @@
         "A",
         "D"
       ],
-      "position": 5
+      "position": 5,
+      "image": ""
     },
     {
       "cont": "Trọng tâm của phân tích là gì?",
@@ -143,7 +148,8 @@
         }
       ],
       "corrects": ["D"],
-      "position": 6
+      "position": 6,
+      "image": ""
     },
     {
       "cont": "Tại sao đóng gói lại quan trọng? (Chọn hai)",
@@ -169,7 +175,8 @@
         "B",
         "D"
       ],
-      "position": 7
+      "position": 7,
+      "image": ""
     },
     {
       "cont": "Các lớp phân tích là gì?",
@@ -192,7 +199,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 8
+      "position": 8,
+      "image": ""
     },
     {
       "cont": "Một kiến trúc sư nhìn vào 2 lớp sau đây. Lớp đầu tiên có các phương thức: getName(),getSize(),getTotal(), and findAverage(). Lớp thứ hai có các phương thức: getName(),getSize(), findAverage(), findMinimum(), and findMaximum(). Hai lớp này cùng là lớp con của một lớp cha. Trong lớp cha này gồm những phương thức nào dưới đây?",
@@ -215,7 +223,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 9
+      "position": 9,
+      "image": ""
     },
     {
       "cont": "Một kiến trúc sư có trách nhiệm tạo ra một mô hình phân tích cho một hệ thống. Để tạo ra mô hình này cần tập trung vào phần nào?",
@@ -238,7 +247,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 10
+      "position": 10,
+      "image": ""
     },
     {
       "cont": "Một giao diện yêu cầu (required interface) làm gì?",
@@ -261,7 +271,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 11
+      "position": 11,
+      "image": ""
     },
     {
       "cont": "Trong sơ đồ trình tự, mỗi tương tác trên sơ đồ ánh xạ tới",
@@ -284,7 +295,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 12
+      "position": 12,
+      "image": ""
     },
     {
       "cont": "Hai câu hỏi nào cần phải trả lời khi muốn sử dụng mối quan hệ nhiều-nhiều (Chọn hai)?",
@@ -307,7 +319,8 @@
         }
       ],
       "corrects": ["A", "B"],
-      "position": 13
+      "position": 13,
+      "image": ""
     },
     {
       "cont": "Hai cân nhắc quan trọng khi vẽ sơ đồ trạng thái là gì?",
@@ -330,7 +343,8 @@
         }
       ],
       "corrects": ["A", "C"],
-      "position": 14
+      "position": 14,
+      "image": ""
     },
     {
       "cont": "Phát biểu nào là đúng về phụ thuộc vòng tròn?",
@@ -353,7 +367,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 15
+      "position": 15,
+      "image": ""
     },
     {
       "cont": "Mục đích của phân tích kiến ​​trúc là gì ?",
@@ -376,7 +391,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 16
+      "position": 16,
+      "image": ""
     },
     {
       "cont": "Khi các giao diện giữa hai lớp được xác định từ biểu đồ tuần tự, các cổng được xác định bởi _____.",
@@ -399,7 +415,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 17
+      "position": 17,
+      "image": ""
     },
     {
       "cont": "Phát biểu nào là đúng về thuộc tính?",
@@ -422,7 +439,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 18
+      "position": 18,
+      "image": ""
     },
     {
       "cont": "Phân tích thiết kế hướng đến ba mục đích nào? (Chọn ba)",
@@ -449,7 +467,8 @@
         }
       ],
       "corrects": ["B", "D", "E"],
-      "position": 19
+      "position": 19,
+      "image": ""
     },
     {
       "cont": "Các đối tượng đa hình _____",
@@ -472,7 +491,8 @@
         }
       ],
       "corrects": ["D"],
-      "position": 20
+      "position": 20,
+      "image": ""
     },
     {
       "cont": "Đâu là một kinh nghiệm thực tiễn (best practice) cho các lớp có cấu trúc lồng nhau?",
@@ -495,7 +515,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 21
+      "position": 21,
+      "image": ""
     },
     {
       "cont": "Trong khâu Phân tích kiến trúc, kiến trúc sư phần mềm phải dựa vào đâu để giảm độ phức tạp của hệ thống và tăng tính nhất quán?",
@@ -518,7 +539,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 22
+      "position": 22,
+      "image": ""
     },
     {
       "cont": "Hai đặc điểm nào mà tất cả các đối tượng có? (Chọn hai)",
@@ -541,7 +563,8 @@
         }
       ],
       "corrects": ["B", "D"],
-      "position": 23
+      "position": 23,
+      "image": ""
     },
     {
       "cont": "Các lớp phân tích phát triển thành ____ (Chọn hai)",
@@ -568,7 +591,8 @@
         }
       ],
       "corrects": ["A", "B"],
-      "position": 24
+      "position": 24,
+      "image": ""
     },
     {
       "cont": "Chuyện gì xảy ra khi một lớp cha thay đổi?",
@@ -591,7 +615,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 25
+      "position": 25,
+      "image": ""
     },
     {
       "cont": "Phát biểu nào là đúng với hiện thực hóa ca sử dụng? (Chọn hai)",
@@ -614,7 +639,8 @@
         }
       ],
       "corrects": ["B","D"],
-      "position": 26
+      "position": 26,
+      "image": ""
     },
     {
       "cont": "Trạng thái nào KHÔNG chứa trạng thái khác?",
@@ -637,7 +663,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 27
+      "position": 27,
+      "image": ""
     },
     {
       "cont": "Phát biểu nào là đúng về việc nhóm các thành phần vào một gói?",
@@ -660,7 +687,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 28
+      "position": 28,
+      "image": ""
     },
     {
       "cont": "Có ba phân nhóm cơ chế kiến trúc bao gồm? (Chọn ba)",
@@ -683,7 +711,8 @@
         }
       ],
       "corrects": ["A", "C", "D"],
-      "position": 29
+      "position": 29,
+      "image": ""
     },
     {
       "cont": "Trong biểu đồ tuần tự, những gì có thể được xác định bởi các tương tác giữa các thành phần ?",
@@ -706,7 +735,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 30
+      "position": 30,
+      "image": ""
     },
     {
       "cont": "Khung nhìn nào tập trung vào hiện thực hóa vật lý của hệ thống ?",
@@ -729,7 +759,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 31
+      "position": 31,
+      "image": ""
     },
     {
       "cont": "Phát biểu nào là đúng về một đối tượng hoạt động (active object)?",
@@ -752,7 +783,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 32
+      "position": 32,
+      "image": ""
     },
     {
       "cont": "Trong khâu Phân tích ca sử dụng, hành vi nào được phân bố cho các lớp điều khiển?",
@@ -775,7 +807,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 33
+      "position": 33,
+      "image": ""
     },
     {
       "cont": "Ba nguồn để xác định Trừu tượng chính là gì? (Chọn ba)",
@@ -798,7 +831,8 @@
         }
       ],
       "corrects": ["A", "B", "D"],
-      "position": 34
+      "position": 34,
+      "image": ""
     },
     {
       "cont": "Đâu là một tên của đối tượng trong UML?",
@@ -821,7 +855,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 35
+      "position": 35,
+      "image": ""
     },
     {
       "cont": "Trong Phân tích ca sử dụng, một thuộc tính nên được sử dụng thay vì một lớp khi thông tin ___",
@@ -844,7 +879,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 36
+      "position": 36,
+      "image": ""
     },
     {
       "cont": "Khung nhìn 4+1 nào dưới đây tập trung vào khâu Mô tả Phân tán?",
@@ -867,7 +903,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 37
+      "position": 37,
+      "image": ""
     },
     {
       "cont": "Chức năng của mô hình hóa trực quan là gì? (Chọn hai)",
@@ -890,7 +927,8 @@
         }
       ],
       "corrects": ["B", "D"],
-      "position": 38
+      "position": 38,
+      "image": ""
     },
     {
       "cont": "Trong phân tích ca sử dụng, tại sao nên sử dụng các cơ chế Phân tích?",
@@ -913,7 +951,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 39
+      "position": 39,
+      "image": ""
     },
     {
       "cont": "Phát biểu nào là chính xác về các mẫu (patterns)?",
@@ -936,7 +975,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 40
+      "position": 40,
+      "image": ""
     },
     {
       "cont": "Trong khâu Phân tích ca sử dụng, tại sao thường phải bổ sung các mô tả ca sử dụng?",
@@ -959,7 +999,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 41
+      "position": 41,
+      "image": ""
     },
     {
       "cont": "Trong phân tích ca sử dụng, mục đích của bước hợp nhất (unify) các lớp phân tích là gì?",
@@ -982,7 +1023,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 42
+      "position": 42,
+      "image": ""
     },
     {
       "cont": "Tiến trình nào sau đây là phù hợp nhất cho UML? (Chọn ba)",
@@ -1009,7 +1051,8 @@
         }
       ],
       "corrects": ["A", "C", "D"],
-      "position": 43
+      "position": 43,
+      "image": ""
     },
     {
       "cont": "Các lớp kiến ​​trúc thường được mô hình hóa trong UML bằng cách sử dụng một ___",
@@ -1032,7 +1075,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 44
+      "position": 44,
+      "image": ""
     },
     {
       "cont": "Trong một sơ đồ trạng thái, một trạng thái có hai chuyển tiếp. Một trong những chuyển đổi là một chuyển tiếp nội bộ và một trong những chuyển tiếp là một chuyển tiếp bên ngoài. Những trạng thái nào có thể thực hiện một hành động thoát?",
@@ -1055,7 +1099,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 45
+      "position": 45,
+      "image": ""
     },
     {
       "cont": "Hai câu nào là đúng về các quy trình điểu khiển ca sử dụng (use-case driven processes)? (Chọn hai)",
@@ -1078,7 +1123,8 @@
         }
       ],
       "corrects": ["A", "B"],
-      "position": 46
+      "position": 46,
+      "image": ""
     },
     {
       "cont": "Các chức năng chính của các lớp thực thể?",
@@ -1101,7 +1147,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 47
+      "position": 47,
+      "image": ""
     },
     {
       "cont": "Cơ chế chung nào của UML cho phép nhóm các thành phần vào trong cùng một nhóm?",
@@ -1124,7 +1171,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 48
+      "position": 48,
+      "image": ""
     },
     {
       "cont": "Trong phân tích ca sử dụng, cần bao nhiêu biểu đồ tương tác (tuần tự hoặc giao tiếp) cho mỗi ca sử dụng?",
@@ -1147,7 +1195,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 49
+      "position": 49,
+      "image": ""
     },
     {
       "cont": "Trong phân tích ca sử dụng, các lớp biên có những chức năng gì?",
@@ -1170,7 +1219,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 50
+      "position": 50,
+      "image": ""
     },
     {
       "cont": "Phát biểu nào đúng về các phần tử trong hệ thống con và khả năng nhận diện công khai của chúng _____.",
@@ -1193,7 +1243,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 51
+      "position": 51,
+      "image": ""
     },
     {
       "cont": "Hai kiểu phụ thuộc được sử dụng trong một hệ thống con? (chọn hai)",
@@ -1216,7 +1267,8 @@
         }
       ],
       "corrects": ["A", "B"],
-      "position": 52
+      "position": 52,
+      "image": ""
     },
     {
       "cont": "Nhiệm vụ vào được thực hiện trong quá trình sàng lọc hiện thực hóa ca sử dụng",
@@ -1239,7 +1291,8 @@
         }
       ],
       "corrects": ["D"],
-      "position": 53
+      "position": 53,
+      "image": ""
     },
     {
       "cont": "Phát biểu nào đúng về các hệ thống con trong thiết kế?",
@@ -1262,7 +1315,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 54
+      "position": 54,
+      "image": ""
     },
     {
       "cont": "Cho các cấu hình sau: Pagkage A chứa lớp aClass ở tầng presentation. Pagkage B chứa lớp bClass , bInterface ở tầng business. Pagkage C chứa cClass ở tầng data. Cái nào dưới đây là một kinh nghiệm (practice) tồi?",
@@ -1285,7 +1339,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 55
+      "position": 55,
+      "image": ""
     },
     {
       "cont": "Tiến trình tài liệu nào diễn tả cơ chế thiết kế, bất kỳ ánh xạ nào giữa các cơ chế thiết kế và những chi tiết liên quan đến việc sử dụng?",
@@ -1308,7 +1363,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 56
+      "position": 56,
+      "image": ""
     },
     {
       "cont": "Trong trạng thái của một máy trạng thái, một hành vi có thể được định nghĩa?",
@@ -1331,7 +1387,8 @@
         }
       ],
       "corrects": ["B", "C", "D"],
-      "position": 57
+      "position": 57,
+      "image": ""
     },
     {
       "cont": "Một cổng là gì?",
@@ -1354,7 +1411,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 58
+      "position": 58,
+      "image": ""
     },
     {
       "cont": "Khi Xác định Các phần tử thiết kế, một lớp phân tích đơn giản sẽ được ánh xạ đến một?",
@@ -1377,7 +1435,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 59
+      "position": 59,
+      "image": ""
     },
     {
       "cont": "Trong hoạt động nào của OOAD, cơ chế phân tán được xác định?",
@@ -1400,7 +1459,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 60
+      "position": 60,
+      "image": ""
     },
     {
       "cont": "Trong các nút trong sơ đồ dưới đây, nút E được gọi là gì?",
@@ -1439,7 +1499,8 @@
         }
       ],
       "corrects": ["H"],
-      "position": 61
+      "position": 61,
+      "image": "https://trello-attachments.s3.amazonaws.com/5ee6f512523a877af9866545/5ee6f7f83bde6f578fdcc005/425f3c704090c6e043a56ebe17da91d9/ooad1.jpg"
     },
     {
       "cont": "Xác định Phần tử thiết kế là phần nào trong luồng công việc chi tiết nào?",
@@ -1462,7 +1523,8 @@
         }
       ],
       "corrects": ["D"],
-      "position": 62
+      "position": 62,
+      "image": ""
     },
     {
       "cont": "Trong các nút trong sơ đồ dưới đây, nút H được gọi là gì?",
@@ -1501,7 +1563,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 63
+      "position": 63,
+      "image": "https://trello-attachments.s3.amazonaws.com/5ee6f512523a877af9866545/5ee6f7f83bde6f578fdcc005/425f3c704090c6e043a56ebe17da91d9/ooad1.jpg"
     },
     {
       "cont": "Mối quan hệ giữa thao tác (operation) và phương thức (method)?",
@@ -1524,7 +1587,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 64
+      "position": 64,
+      "image": ""
     },
     {
       "cont": "Tại sao phải sử dụng các giao diện hệ thống con (subsystem interface) nhiều hơn sử dụng các đối tượng của hệ thống con (subsystem instances) trong sơ đồ tuần tự (sequence diagram)?",
@@ -1547,7 +1611,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 65
+      "position": 65,
+      "image": ""
     },
     {
       "cont": "Chế tác nào là đầu vào cho khâu xác định phân tử thiết kế?",
@@ -1570,7 +1635,8 @@
         }
       ],
       "corrects": ["D"],
-      "position": 66
+      "position": 66,
+      "image": ""
     },
     {
       "cont": "Một sự cân nhắc quan trọng khi phân bố các tiến trình cho các nút?",
@@ -1593,7 +1659,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 67
+      "position": 67,
+      "image": ""
     },
     {
       "cont": "Kiểu cơ chế nào là một kết nối trong một sơ đồ triển khai?",
@@ -1616,7 +1683,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 68
+      "position": 68,
+      "image": ""
     },
     {
       "cont": "Một cơ chế thiết kế?",
@@ -1639,7 +1707,8 @@
         }
       ],
       "corrects": ["D"],
-      "position": 69
+      "position": 69,
+      "image": ""
     },
     {
       "cont": "Khi xác định các giao diện trong suốt khâu Xác định Phần tử Thiết kế, phát biểu nào sau đây chính xác?",
@@ -1662,7 +1731,8 @@
         }
       ],
       "corrects": ["D"],
-      "position": 70
+      "position": 70,
+      "image": ""
     },
     {
       "cont": "Các hệ thống con bổ sung có thể được phát hiện trong quá trình Thiết kế Ca sử dụng bằng cách ghi chú?",
@@ -1685,7 +1755,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 71
+      "position": 71,
+      "image": ""
     },
     {
       "cont": "Hoạt động nào được thực hiện trong suốt giai đoạn Thiết kế Ca sử dụng?",
@@ -1708,7 +1779,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 72
+      "position": 72,
+      "image": ""
     },
     {
       "cont": "Trong biểu đồ tuần tự, thành phần nào được dùng để đại diện cho một hệ thống con cụ thể?",
@@ -1731,7 +1803,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 73
+      "position": 73,
+      "image": ""
     },
     {
       "cont": "Thành phần nào của UML được dùng để mô tả kiến trúc vật lý của một hệ thống?",
@@ -1754,7 +1827,8 @@
         }
       ],
       "corrects": ["D"],
-      "position": 74
+      "position": 74,
+      "image": ""
     },
     {
       "cont": "Chế tác nào được sử dụng để hiện thực hóa ca sử dụng?",
@@ -1777,7 +1851,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 75
+      "position": 75,
+      "image": ""
     },
     {
       "cont": "Trách nhiệm của các hệ thống con được xác định dựa vào đâu?",
@@ -1800,7 +1875,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 76
+      "position": 76,
+      "image": ""
     },
     {
       "cont": "Cái nào sau đây là một cơ chế thiết kế?",
@@ -1823,7 +1899,8 @@
         }
       ],
       "corrects": ["D"],
-      "position": 77
+      "position": 77,
+      "image": ""
     },
     {
       "cont": "Để bắt đầu Xác định cơ chế thiết kế, cần phải phân loại cơ chế phân tích. Ba bước của quá trình phân loại cơ chế phân tích là? (Chọn 3)",
@@ -1846,7 +1923,8 @@
         }
       ],
       "corrects": ["A","B","D"],
-      "position": 78
+      "position": 78,
+      "image": ""
     },
     {
       "cont": "Trong thiết kế hệ thống con, điều gì xảy ra ở giai đoạn này, các trách nhiệm của hệ thống phân tán?",
@@ -1869,7 +1947,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 79
+      "position": 79,
+      "image": ""
     },
     {
       "cont": "Thực thể nào được xác định rõ ranh giới và định danh mà đóng gói trạng thái và hành vi?",
@@ -1892,7 +1971,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 80
+      "position": 80,
+      "image": ""
     },
     {
       "cont": "Xác định mục đích của hoạt động Xác định Cơ chế Thiết kế?",
@@ -1915,7 +1995,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 81
+      "position": 81,
+      "image": ""
     },
     {
       "cont": "Trong một sự phụ thuộc, thông qua sự tham chiếu nào sau đây mà lớp khách có khả năng nhận biết được các nhà cung cấp?",
@@ -1938,7 +2019,8 @@
         }
       ],
       "corrects": ["A" ,"B", "C"],
-      "position": 82
+      "position": 82,
+      "image": ""
     },
     {
       "cont": "Hoạt động Phân tích và Thiết kế nào được thực hiện khi các hệ thống con được ánh xạ đến các lớp phân tích?",
@@ -1961,7 +2043,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 83
+      "position": 83,
+      "image": ""
     },
     {
       "cont": "Phần tử thiết kế nào được sử dụng để trình bày một đối tượng cùng thực hiện đồng thời?",
@@ -1984,7 +2067,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 84
+      "position": 84,
+      "image": ""
     },
     {
       "cont": "Hoạt động mô tả Sự phân tán là nơi các tiến trình được xác định trong mô tả  hoạt động kiến trúc thời gian thực được phân bổ cho?",
@@ -2007,7 +2091,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 85
+      "position": 85,
+      "image": ""
     },
     {
       "cont": "Trong thiết kế hệ thống con có bao nhiêu biểu đồ tương tác (tuần tự hoặc giao tiếp) được tạo ra?",
@@ -2030,7 +2115,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 86
+      "position": 86,
+      "image": ""
     },
     {
       "cont": "Một đồ thị có hướng của các nút được kết nối bởi sự chuyển đổi là một _____ biểu đồ",
@@ -2053,7 +2139,8 @@
         }
       ],
       "corrects": ["D"],
-      "position": 87
+      "position": 87,
+      "image": ""
     },
     {
       "cont": "Trong các nút trong sơ đồ dưới đây, nút F được gọi là gì?",
@@ -2092,7 +2179,8 @@
         }
       ],
       "corrects": ["F"],
-      "position": 88
+      "position": 88,
+      "image": "https://trello-attachments.s3.amazonaws.com/5ee6f512523a877af9866545/5ee6f7f83bde6f578fdcc005/425f3c704090c6e043a56ebe17da91d9/ooad1.jpg"
     },
     {
       "cont": "Thiết kế Ca sử dụng là một phần của luồng công việc chi tiết nào?",
@@ -2115,7 +2203,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 89
+      "position": 89,
+      "image": ""
     },
     {
       "cont": "Khi nào một lớp phân tích được ánh xạ trực tiếp đến một lớp thiết kế?",
@@ -2138,7 +2227,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 90
+      "position": 90,
+      "image": ""
     },
     {
       "cont": "Mục đích chính của thiết kế các hệ thống con là gì?",
@@ -2161,7 +2251,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 91
+      "position": 91,
+      "image": ""
     },
     {
       "cont": "Trong các nút trong sơ đồ dưới đây, nút C1 và C2 được gọi là gì?",
@@ -2200,7 +2291,8 @@
         }
       ],
       "corrects": ["G"],
-      "position": 92
+      "position": 92,
+      "image": "https://trello-attachments.s3.amazonaws.com/5ee6f512523a877af9866545/5ee6f7f83bde6f578fdcc005/425f3c704090c6e043a56ebe17da91d9/ooad1.jpg"
     },
     {
       "cont": "Định nghĩa cấu hình mạng là bước ______ của hoạt động Mô tả sự phân tán?",
@@ -2223,7 +2315,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 93
+      "position": 93,
+      "image": ""
     },
     {
       "cont": "Trong các nút trong sơ đồ dưới đây, nút B được gọi là gì?",
@@ -2262,7 +2355,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 94
+      "position": 94,
+      "image": "https://trello-attachments.s3.amazonaws.com/5ee6f512523a877af9866545/5ee6f7f83bde6f578fdcc005/425f3c704090c6e043a56ebe17da91d9/ooad1.jpg"
     },
     {
       "cont": "Câu nào là đúng về gói và hệ thống con?",
@@ -2285,7 +2379,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 95
+      "position": 95,
+      "image": ""
     },
     {
       "cont": "Có bao nhiêu nút vật lý được xác định để diễn tả hoạt động Mô tả sự phân tán?",
@@ -2308,7 +2403,8 @@
         }
       ],
       "corrects": ["D"],
-      "position": 96
+      "position": 96,
+      "image": ""
     },
     {
       "cont": "Tài liệu bổ sung biểu đồ tuần tự dưới dạng ghi chú và văn bản được sử dụng cho ______. (Chọn 3)",
@@ -2331,7 +2427,8 @@
         }
       ],
       "corrects": ["A","B","D"],
-      "position": 97
+      "position": 97,
+      "image": ""
     },
     {
       "cont": "Cái nào được sử dụng để mô tả tiến trình trong việc áp dụng một cơ chế phân tán trong suốt quá trình cài đặt?",
@@ -2354,7 +2451,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 98
+      "position": 98,
+      "image": ""
     },
     {
       "cont": "Trong các nút trong sơ đồ dưới đây, với những thông tin được cung cấp trong biểu đồ, phát biểu nào sau đây đúng?",
@@ -2377,7 +2475,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 99
+      "position": 99,
+      "image": "https://trello-attachments.s3.amazonaws.com/5ee6f8685e1b2f1b82f89fd9/468x216/208760c194a8c813f0ab35040d3be436/ooad3.jpg"
     },
     {
       "cont": "Thuộc tính được gạch chân chỉ ra điều gì?",
@@ -2400,7 +2499,8 @@
         }
       ],
       "corrects": ["D"],
-      "position": 100
+      "position": 100,
+      "image": ""
     },
     {
       "cont": "Trong biểu đồ dưới đây, thuộc tính CourseOffering.numberOfStudents là một ví dụ của _____.",
@@ -2423,7 +2523,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 101
+      "position": 101,
+      "image": "https://trello-attachments.s3.amazonaws.com/5ee6f853b4c81088a6cab616/468x299/c0336e6d06eddb157cc2f95b40120e58/ooad2.jpg"
     },
     {
       "cont": "Trong các nút trong sơ đồ dưới đây, nút A được gọi là gì?",
@@ -2462,7 +2563,8 @@
         }
       ],
       "corrects": ["E"],
-      "position": 102
+      "position": 102,
+      "image": "https://trello-attachments.s3.amazonaws.com/5ee6f512523a877af9866545/5ee6f7f83bde6f578fdcc005/425f3c704090c6e043a56ebe17da91d9/ooad1.jpg"
     },
     {
       "cont": "Với cơ chế bền vững, hai chức năng của yêu cầu giao dịch là gì? (Chọn hai)",
@@ -2489,7 +2591,8 @@
         }
       ],
       "corrects": ["A","C"],
-      "position": 103
+      "position": 103,
+      "image": ""
     },
     {
       "cont": "Ba mục đích thiết kế ca sử dụng là gì? (Chọn ba)",
@@ -2512,7 +2615,8 @@
         }
       ],
       "corrects": ["A","C","D"],
-      "position": 104
+      "position": 104,
+      "image": ""
     },
     {
       "cont": "Chế tác đầu ra của Thiết kế ca sử dụng là cái nào dưới đây?",
@@ -2535,7 +2639,8 @@
         }
       ],
       "corrects": ["D"],
-      "position": 105
+      "position": 105,
+      "image": ""
     },
     {
       "cont": "Cái nào sau đây là một ví dụ về môi trường thực thi?",
@@ -2558,7 +2663,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 106
+      "position": 106,
+      "image": ""
     },
     {
       "cont": "Mục đích của việc Các lớp hợp nhất và Các hệ thống con là để đảm bảo ______.",
@@ -2581,7 +2687,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 107
+      "position": 107,
+      "image": ""
     },
     {
       "cont": "Cái nào dưới đây là một hướng dẫn cho các thao tác đóng gói hệ thống trong biểu đồ tuần tự ______.",
@@ -2604,7 +2711,8 @@
         }
       ],
       "corrects": ["A"],
-      "position": 108
+      "position": 108,
+      "image": ""
     },
     {
       "cont": "Cái nào sau đây là một ví dụ của đường kết nối?",
@@ -2627,7 +2735,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 109
+      "position": 109,
+      "image": ""
     },
     {
       "cont": "Trong các nút trong sơ đồ dưới đây, nút G được gọi là gì?",
@@ -2666,7 +2775,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 110
+      "position": 110,
+      "image": "https://trello-attachments.s3.amazonaws.com/5ee6f512523a877af9866545/5ee6f7f83bde6f578fdcc005/425f3c704090c6e043a56ebe17da91d9/ooad1.jpg"
     },
     {
       "cont": "Cái nào sau đây là một thiết bị?",
@@ -2689,7 +2799,8 @@
         }
       ],
       "corrects": ["D"],
-      "position": 111
+      "position": 111,
+      "image": ""
     },
     {
       "cont": "Khung nhìn 4 + 1 nào sau đây tập trung vào hoạt động Mô tả sự phân tán?",
@@ -2712,7 +2823,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 112
+      "position": 112,
+      "image": ""
     },
     {
       "cont": "Mục đích của thiết kế hệ thống con là gì?",
@@ -2735,7 +2847,8 @@
         }
       ],
       "corrects": ["C"],
-      "position": 113
+      "position": 113,
+      "image": ""
     },
     {
       "cont": "Ba hoạt động nào sau đây là phần tử của Thiết kế các lớp? (Chọn ba)",
@@ -2758,7 +2871,8 @@
         }
       ],
       "corrects": ["A", "B", "D"],
-      "position": 114
+      "position": 114,
+      "image": ""
     },
     {
       "cont": "Trong các nút trong sơ đồ dưới đây, nút D được gọi là gì?",
@@ -2797,7 +2911,8 @@
         }
       ],
       "corrects": ["D"],
-      "position": 115
+      "position": 115,
+      "image": "https://trello-attachments.s3.amazonaws.com/5ee6f512523a877af9866545/5ee6f7f83bde6f578fdcc005/425f3c704090c6e043a56ebe17da91d9/ooad1.jpg"
     },
     {
       "cont": "Các chế tác là các thực thể _____.",
@@ -2820,7 +2935,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 116
+      "position": 116,
+      "image": ""
     },
     {
       "cont": "Mục đích chính của biểu đồ ca sử dụng là?",
@@ -2843,7 +2959,8 @@
         }
       ],
       "corrects": ["D"],
-      "position": 117
+      "position": 117,
+      "image": ""
     },
     {
       "cont": "Thành phần nào được dùng để mô tả hiện thực hóa ca sử dụng?",
@@ -2866,7 +2983,8 @@
         }
       ],
       "corrects": ["B"],
-      "position": 118
+      "position": 118,
+      "image": ""
     }
   ]
 }

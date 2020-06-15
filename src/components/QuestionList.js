@@ -57,9 +57,8 @@ class QuestionList extends Component{
                         })
                 }
                 <Button variant="primary" onClick={this.checkAnswer}>Submit</Button>
-                <hr />
-
                 <div className="pagination-wrapper">
+                    <br/>
                     <Pagination aria-label="Page navigation example">
                         <PaginationItem disabled={currentPage <= 0}>
                             <PaginationLink
