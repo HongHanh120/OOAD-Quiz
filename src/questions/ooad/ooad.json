@@ -33,7 +33,7 @@
         },
         {
           "key": "B",
-          "text": "Nó đưa ra các public interfaces cho lớp thông qua các cổng"
+          "text": "Nó đưa ra các giao diện công khai cho lớp thông qua các cổng"
         },
         {
           "key": "C",
@@ -41,7 +41,7 @@
         },
         {
           "key": "D",
-          "text": "Nó định nghĩa các message giữa chính nó và các lớp khác"
+          "text": "Nó định nghĩa các thông điệp giữa chính nó và các lớp khác"
         }
       ],
       "corrects": [
@@ -81,7 +81,7 @@
       "answers": [
         {
           "key": "A",
-          "text": "Test và tích hợp trong mỗi lần lặp"
+          "text": "Kiểm thử và tích hợp trong mỗi lần lặp"
         },
         {
           "key": "B",
@@ -160,7 +160,7 @@
         },
         {
           "key": "B",
-          "text": "Nó đặt các hoạt động và thuộc tính trong cùng một đối tượng"
+          "text": "Nó đặt các phương thức và thuộc tính trong cùng một đối tượng"
         },
         {
           "key": "C",
@@ -323,7 +323,7 @@
       "image": ""
     },
     {
-      "cont": "Hai cân nhắc quan trọng khi vẽ sơ đồ trạng thái là gì?",
+      "cont": "Hai cân nhắc quan trọng khi vẽ sơ đồ trạng thái là gì? (Chọn hai)",
       "answers": [
         {
           "key": "A",
@@ -335,11 +335,11 @@
         },
         {
           "key": "C",
-          "text": "Bất cứ khi nào có sự thay đổi trạng thái, sẽ có một transition"
+          "text": "Bất cứ khi nào có sự thay đổi trạng thái, sẽ có một sự chuyển đổi"
         },
         {
           "key": "D",
-          "text": "Thay đổi trạng thái có thể không thay đổi transition"
+          "text": "Thay đổi trạng thái có thể không thay đổi sự chuyển đổi"
         }
       ],
       "corrects": ["A", "C"],
@@ -479,15 +479,15 @@
         },
         {
           "key": "B",
-          "text": "chia sẻ tất cả các operation giống nhau và các operation thực hiện như nhau"
+          "text": "chia sẻ tất cả các phương thức giống nhau và các phương thức thực hiện như nhau"
         },
         {
           "key": "C",
-          "text": "chỉ có thể được implement thông qua các giao diện"
+          "text": "chỉ có thể được cài đặt thông qua các giao diện"
         },
         {
           "key": "D",
-          "text": "có thể có cùng tên operation nhưng các operation thực hiện khác nhau"
+          "text": "có thể có cùng tên phương thức nhưng các phương thức thực hiện khác nhau"
         }
       ],
       "corrects": ["D"],
@@ -599,19 +599,19 @@
       "answers": [
         {
           "key": "A",
-          "text": "Tất cả các class con thay đổi"
+          "text": "Tất cả các lớp con kế thừa con thay đổi"
         },
         {
           "key": "B",
-          "text": "Các operations của các class con thay đổi"
+          "text": "Các phương thức của các lớp con thay đổi"
         },
         {
           "key": "C",
-          "text": "Các phương thức được thêm trong class con mà không có trong class cha phải thay đổi"
+          "text": "Các phương thức được thêm trong lớp con mà không có trong lớp cha phải thay đổi"
         },
         {
           "key": "D",
-          "text": "Chỉ có các phương thức được kế thừa từ class cha thay đổi"
+          "text": "Chỉ có các phương thức được kế thừa từ lớp cha thay đổi"
         }
       ],
       "corrects": ["A"],
@@ -623,19 +623,19 @@
       "answers": [
         {
           "key": "A",
-          "text": "Liệt kê các bước khác nhau mà 1 ca sử dụng thực hiện"
+          "text": "Liệt kê các bước khác nhau mà một ca sử dụng thực hiện"
         },
         {
           "key": "B",
-          "text": "Nó được tạo ra bởi người phân tích hệ thống"
+          "text": "Mô tả các use-case trong giới hạn các đối tượng cộng tác."
         },
         {
           "key": "C",
-          "text": "Nó là một phần trong Đặc tả yêu cầu phần mềm"
+          "text": "Nó được tạo ra bởi người phân tích hệ thống"
         },
         {
           "key": "D",
-          "text": "Thẩm định sự tương ứng từ phân tích và thiết kế với đặc tả yêu cầu"
+          "text": "Cung cấp sự truy xuất nguồn gốc từ phân tích và thiết kế về đặc tả yêu cầu"
         }
       ],
       "corrects": ["B","D"],
@@ -671,7 +671,7 @@
       "answers": [
         {
           "key": "A",
-          "text": "Các thành phần trong cùng một gói nên chia sẻ logic, giải pháp chung"
+          "text": "Các thành phần trong cùng một gói nên chia sẻ sự logic, giải pháp chung"
         },
         {
           "key": "B",
@@ -767,7 +767,7 @@
       "answers": [
         {
           "key": "A",
-          "text": "Nó là một object độc lập có thể giao tiếp với các active object khác một cách không đồng bộ"
+          "text": "Nó là một đối tượng độc lập có thể giao tiếp với các đối tượng hoạt động khác một cách không đồng bộ"
         },
         {
           "key": "B",
@@ -863,7 +863,7 @@
       "answers": [
         {
           "key": "A",
-          "text": "được truy cập bởi các operations mà chỉ get, set, hoặc chuyển đổi đơn giản"
+          "text": "được truy cập bởi các phương thức mà chỉ get, set, hoặc chuyển đổi đơn giản"
         },
         {
           "key": "B",
@@ -883,23 +883,23 @@
       "image": ""
     },
     {
-      "cont": "Khung nhìn 4+1 nào dưới đây tập trung vào khâu Mô tả Phân tán?",
+      "cont": "Khung nhìn nào dưới đây không phải là một phần của khung nhìn RUP 4+1",
       "answers": [
         {
           "key": "A",
-          "text": "Khung Logic"
+          "text": "Khung nhìn logic"
         },
         {
           "key": "B",
-          "text": "Khung Triển khai"
+          "text": "Khung nhìn phân tán"
         },
         {
           "key": "C",
-          "text": "Khung ca sử dụng"
+          "text": "Khung nhìn ca sử dụng"
         },
         {
           "key": "D",
-          "text": "Khung cài đặt"
+          "text": "Khung nhìn cài đặt"
         }
       ],
       "corrects": ["B"],
@@ -959,19 +959,19 @@
       "answers": [
         {
           "key": "A",
-          "text": "Pattern chỉ xuất hiện ở trong mức Thiết kế"
+          "text": "Mẫu chỉ xuất hiện ở trong mức Thiết kế"
         },
         {
           "key": "B",
-          "text": "Pattern cung cấp một giải pháp chung cho những vấn đề chung"
+          "text": "Mẫu cung cấp một giải pháp chung cho những vấn đề chung"
         },
         {
           "key": "C",
-          "text": "Pattern chỉ xuất hiện ở trong mức Kiến trúc"
+          "text": "Mẫu chỉ xuất hiện ở trong mức Kiến trúc"
         },
         {
           "key": "D",
-          "text": "Pattern chỉ được sử dụng trong Giai đoạn xây dựng (Elaboration Phase)"
+          "text": "Mẫu chỉ được sử dụng trong Giai đoạn xây dựng (Elaboration Phase)"
         }
       ],
       "corrects": ["B"],
@@ -1011,7 +1011,7 @@
         },
         {
           "key": "B",
-          "text": "để tập hợp các lớp phân tích từ hiệ thực hóa ca sử dụng và đưa chúng vào mô hình thiết kế"
+          "text": "để tập hợp các lớp phân tích từ hiện thực hóa ca sử dụng và đưa chúng vào mô hình thiết kế"
         },
         {
           "key": "C",
@@ -1287,7 +1287,7 @@
         },
         {
           "key": "D",
-          "text": "Mô hình mối quan hệ giữa các lớp. (model associated class relationships)."
+          "text": "Mô hình mối quan hệ giữa các lớp."
         }
       ],
       "corrects": ["D"],
@@ -1319,7 +1319,7 @@
       "image": ""
     },
     {
-      "cont": "Cho các cấu hình sau: Pagkage A chứa lớp aClass ở tầng presentation. Pagkage B chứa lớp bClass , bInterface ở tầng business. Pagkage C chứa cClass ở tầng data. Cái nào dưới đây là một kinh nghiệm (practice) tồi?",
+      "cont": "Cho các cấu hình sau: Pagkage A chứa lớp aClass ở tầng Trình diễn. Pagkage B chứa lớp bClass , bInterface ở tầng Nghiệp vụ. Pagkage C chứa cClass ở tầng Dữ liệu. Cái nào dưới đây là một kinh nghiệm (practice) tồi?",
       "answers": [
         {
           "key": "A",
@@ -1467,7 +1467,7 @@
       "answers": [
         {
           "key": "A",
-          "text": "forks"
+          "text": "thanh đồng bộ"
         },
         {
           "key": "B",
@@ -1531,7 +1531,7 @@
       "answers": [
         {
           "key": "A",
-          "text": "forks"
+          "text": "thanh đồng bộ"
         },
         {
           "key": "B",
@@ -2147,7 +2147,7 @@
       "answers": [
         {
           "key": "A",
-          "text": "forks"
+          "text": "thanh đồng bộ"
         },
         {
           "key": "B",
@@ -2259,7 +2259,7 @@
       "answers": [
         {
           "key": "A",
-          "text": "forks"
+          "text": "thanh đồng bộ"
         },
         {
           "key": "B",
@@ -2323,7 +2323,7 @@
       "answers": [
         {
           "key": "A",
-          "text": "forks"
+          "text": "thanh đồng bộ"
         },
         {
           "key": "B",
@@ -2531,7 +2531,7 @@
       "answers": [
         {
           "key": "A",
-          "text": "forks"
+          "text": "thanh đồng bộ"
         },
         {
           "key": "B",
@@ -2743,7 +2743,7 @@
       "answers": [
         {
           "key": "A",
-          "text": "forks"
+          "text": "thanh đồng bộ"
         },
         {
           "key": "B",
@@ -2879,7 +2879,7 @@
       "answers": [
         {
           "key": "A",
-          "text": "forks"
+          "text": "thanh đồng bộ"
         },
         {
           "key": "B",
